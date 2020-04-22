@@ -1466,21 +1466,21 @@
     <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
     <BladeData sharpness="3" physics_material="wood_weapon" body_name="bo_spear_b">
       <Thrust damage_type="Pierce" damage_factor="3.0" />
-      <Swing damage_type="Cut" damage_factor="4.5" />
+      <Swing damage_type="Cut" damage_factor="3.9" />
     </BladeData>
   </CraftingPiece>
   <CraftingPiece id="mp_empire_long_menavlion_blade" name="{=lhjYX0k2}MP Empire Long Menavlion Blade" tier="2" piece_type="Blade" mesh="spear_blade_18" length="70.4" weight="0.3">
     <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
     <BladeData sharpness="3" physics_material="wood_weapon" body_name="bo_spear_b">
       <Thrust damage_type="Pierce" damage_factor="3.0" />
-      <Swing damage_type="Cut" damage_factor="4.9" />
+      <Swing damage_type="Cut" damage_factor="4.5" />
     </BladeData>
   </CraftingPiece>
   <CraftingPiece id="mp_empire_heavy_menavlion_blade" name="{=8Du7qb3K}MP Empire Heavy Menavlion Blade" tier="2" piece_type="Blade" mesh="spear_blade_18" length="70.4" weight="0.5">
     <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
     <BladeData sharpness="3" physics_material="wood_weapon" body_name="bo_spear_b">
       <Thrust damage_type="Pierce" damage_factor="3.0" />
-      <Swing damage_type="Cut" damage_factor="5.0" />
+      <Swing damage_type="Cut" damage_factor="4.7" />
     </BladeData>
   </CraftingPiece>
   <CraftingPiece id="mp_empire_polearm_blade" name="{=5EPnIbje}MP Empire Polearm Blade" tier="1" piece_type="Blade" mesh="spear_blade_23" length="42.5" weight="0.25">
@@ -1731,7 +1731,7 @@
     <PieceUsages unavailable_usages="OneHandedPolearm:TwoHandedPolearm_Couchable:Javelin" />
     <BuildData move_diff="37.408" top_diff="1.42" />
   </CraftingPiece>
-  <CraftingPiece id="mp_empire_menavlion_handle" name="{=aPC166Pg}Mp Empire Menavlion Handle" tier="2" piece_type="Handle" mesh="spear_handle_5" length="228" weight="0.7" excluded_item_usage_features="long">
+  <CraftingPiece id="mp_empire_menavlion_handle" name="{=aPC166Pg}Mp Empire Menavlion Handle" tier="2" piece_type="Handle" mesh="spear_handle_5" length="180" weight="1.2" excluded_item_usage_features="long">
     <PieceUsages unavailable_usages="OneHandedPolearm:TwoHandedPolearm_Couchable:Javelin" />
     <BuildData move_diff="22.9" />
   </CraftingPiece>
