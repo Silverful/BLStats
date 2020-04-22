@@ -4,5 +4,6 @@ combat_parameters
 native_parameters
 mpitems
 mpcharacters
+mpclassdivisions
 mp_crafting_pieces
 managed_core_parameters
