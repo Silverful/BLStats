@@ -9,6 +9,12 @@
         <flag name="priority" value="1" />
       </flags>
     </animation>
+	<animation id="aserai_mp_tribal_warrior_idle_bigshieldperk" param1="0.5" duration="16" anim_data_name="tribal_warrior_mp_idle_bigshieldperk" source1="1" source2="481" blend_in_period="0.0">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="1" />
+      </flags>
+    </animation>
 	<animation id="aserai_mp_guard_idle" param1="0.5" duration="18.3" anim_data_name="guard_mp_idle" source1="1" source2="551" blend_in_period="0.0">
       <flags>
         <flag name="cyclic" />
@@ -266,6 +272,12 @@
         <flag name="cyclic" />
         <flag name="priority" value="1" />
       </flags>
+    </animation>	
+	<animation id="vlandia_mp_peasant_levy_armorperk_idle" param1="0.5" duration="14" anim_data_name="peasant_levy_armorperk_idle" source1="1" source2="371" blend_in_period="0.0">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="1" />
+      </flags>
     </animation>			
 	<animation id="vlandia_mp_voulgier_idle" param1="0.5" duration="18" anim_data_name="voulgier_mp_idle" source1="1" source2="551" blend_in_period="0.0">
       <flags>
@@ -292,6 +304,12 @@
       </flags>
     </animation>
 	<animation id="vlandia_mp_vanguard_idle" param1="0.5" duration="18.3" anim_data_name="vanguard_mp_idle" source1="1" source2="551" blend_in_period="0.0">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="1" />
+      </flags>
+    </animation>
+	<animation id="vlandia_mp_vanguard_idle_smallshieldperk" param1="0.5" duration="18.3" anim_data_name="vanguard_mp_idle_smallshieldperk" source1="1" source2="551" blend_in_period="0.0">
       <flags>
         <flag name="cyclic" />
         <flag name="priority" value="1" />
@@ -403,12 +421,6 @@
         <flag name="priority" value="1" />
       </flags>
     </animation>
-	<animation id="khuzait_mp_spear_infantry_idle_longspearperk" param1="0.5" duration="15" anim_data_name="spear_infantry_mp_idle_longspearperk" source1="1" source2="436" blend_in_period="0.0">
-      <flags>
-        <flag name="cyclic" />
-        <flag name="priority" value="1" />
-      </flags>
-    </animation>
 	<animation id="khuzait_mp_steppe_bow_idle" param1="0.5" duration="14" anim_data_name="steppe_bow_mp_idle" source1="1" source2="421" blend_in_period="0.0">
       <flags>
         <flag name="cyclic" />
@@ -441,6 +453,12 @@
       </flags>
     </animation>
 	<animation id="khuzait_mp_nomad_idle" param1="0.5" duration="18.3" anim_data_name="nomad_mp_idle" source1="1" source2="551" blend_in_period="0.0">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="1" />
+      </flags>
+    </animation>
+	<animation id="khuzait_mp_nomad_idle_maceperk" param1="0.5" duration="18.3" anim_data_name="nomad_mp_idle_maceperk" source1="1" source2="551" blend_in_period="0.0">
       <flags>
         <flag name="cyclic" />
         <flag name="priority" value="1" />
@@ -481,12 +499,12 @@
         <flag name="priority" value="1" />
       </flags>
     </animation>
-	<animation id="sturgia_mp_warrior_maulperk_idle" param1="0.5" duration="13.5" anim_data_name="clan_warrior_maulperk_mp_idle" source1="1" source2="401" blend_in_period="0.0">
+<!-- 	<animation id="sturgia_mp_warrior_maulperk_idle" param1="0.5" duration="13.5" anim_data_name="clan_warrior_maulperk_mp_idle" source1="1" source2="401" blend_in_period="0.0">
       <flags>
         <flag name="cyclic" />
         <flag name="priority" value="1" />
       </flags>
-    </animation>
+    </animation> -->
 	<animation id="sturgia_mp_huskarl_idle" param1="0.5" duration="13" anim_data_name="huskarl_mp_idle" source1="1" source2="381" blend_in_period="0.0">
       <flags>
         <flag name="cyclic" />
@@ -511,6 +529,12 @@
         <flag name="priority" value="1" />
       </flags>
     </animation>
+	<animation id="sturgia_mp_brigand_idle_largershieldperk" param1="0.5" duration="14.5" anim_data_name="brigand_mp_idle_largershieldperk" source1="1" source2="436" blend_in_period="0.0">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="1" />
+      </flags>
+    </animation>
 	<animation id="sturgia_mp_hunter_idle" param1="0.5" duration="14.5" anim_data_name="hunter_mp_idle" source1="1" source2="436" right_hand_pose="2" blend_in_period="0.0">
       <flags>
         <flag name="cyclic" />
@@ -519,6 +543,12 @@
     </animation>	
 
 	<animation id="sturgia_mp_druzhina_idle" param1="0.5" duration="18.3" anim_data_name="druzhina_mp_idle" source1="1" source2="551" blend_in_period="0.0">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="1" />
+      </flags>
+    </animation>
+	<animation id="sturgia_mp_druzhina_idle_largeshieldperk" param1="0.5" duration="18.3" anim_data_name="druzhina_mp_idle_largeshieldperk" source1="1" source2="551" blend_in_period="0.0">
       <flags>
         <flag name="cyclic" />
         <flag name="priority" value="1" />

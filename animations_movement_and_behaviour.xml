@@ -584,7 +584,6 @@
 </animation>-->
 	<animation id="troop_stand_unarmed_1" param1="0" duration="65" anim_data_name="anim_unarmed_stand_idle_4" source1="400" source2="1881" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/soldier_idle">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -592,7 +591,6 @@
     </animation>
 	<animation id="troop_stand_unarmed_2" param1="0" duration="65" anim_data_name="anim_unarmed_stand_idle_4" source1="400" source2="1881" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -600,7 +598,6 @@
     </animation>
 	<animation id="troop_stand_unarmed_3" param1="0" duration="55" anim_data_name="anim_unarmed_stand_idle_5" source1="150" source2="1554" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -608,7 +605,6 @@
     </animation>
 	<animation id="troop_stand_unarmed_4" param1="0" duration="65" anim_data_name="anim_unarmed_stand_idle_4" source1="400" source2="1881" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -616,7 +612,6 @@
     </animation>
 	<animation id="troop_stand_unarmed_5" param1="0" duration="55" anim_data_name="anim_unarmed_stand_idle_5" source1="150" source2="1554" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -625,7 +620,6 @@
 
 	<animation id="troop_stand_1h_with_shield_1" param1="0" duration="65" anim_data_name="anim_1h_with_shield_stand_idle_1" source1="150" source2="1660" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/soldier_idle">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -633,7 +627,6 @@
     </animation>
 	<animation id="troop_stand_1h_with_shield_2" param1="0" duration="55" anim_data_name="anim_1h_with_shield_stand_idle_2" source1="150" source2="1415" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -641,7 +634,6 @@
     </animation>
 	<animation id="troop_stand_1h_with_shield_3" param1="0" duration="65" anim_data_name="anim_1h_with_shield_stand_idle_3" source1="150" source2="1861" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -649,7 +641,6 @@
     </animation>
 	<animation id="troop_stand_1h_with_shield_4" param1="0" duration="60" anim_data_name="anim_1h_with_shield_stand_idle_4" source1="100" source2="1701" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -657,7 +648,6 @@
     </animation>
 	<animation id="troop_stand_1h_with_shield_5" param1="0" duration="57" anim_data_name="anim_1h_with_shield_stand_idle_5" source1="150" source2="1861" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -665,7 +655,6 @@
     </animation>
 	<animation id="troop_stand_1h_with_shield_6" param1="0" duration="65" anim_data_name="anim_1h_with_shield_stand_idle_6" source1="150" source2="1861" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -674,7 +663,6 @@
 	
 	<animation id="troop_stand_javelin_with_shield_1" param1="0" duration="65" anim_data_name="anim_javelin_with_shield_stand_idle_1" source1="150" source2="1660" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -682,7 +670,6 @@
     </animation>
 	<animation id="troop_stand_javelin_with_shield_2" param1="0" duration="65" anim_data_name="anim_javelin_with_shield_stand_idle_2" source1="150" source2="1660" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -690,7 +677,6 @@
     </animation>
 	<animation id="troop_stand_javelin_with_shield_3" param1="0" duration="65" anim_data_name="anim_javelin_with_shield_stand_idle_3" source1="150" source2="1861" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -700,7 +686,6 @@
 	
 	<animation id="troop_stand_1h_without_shield_1" param1="0" duration="65" anim_data_name="anim_1h_without_shield_stand_idle_1" source1="400" source2="1881" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/soldier_idle">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -708,7 +693,6 @@
     </animation>
 	<animation id="troop_stand_1h_without_shield_2" param1="0" duration="65" anim_data_name="anim_1h_without_shield_stand_idle_2" source1="400" source2="1881" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -716,7 +700,6 @@
     </animation>
 	<animation id="troop_stand_1h_without_shield_3" param1="0" duration="55" anim_data_name="anim_1h_without_shield_stand_idle_4" source1="150" source2="1554" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -724,7 +707,6 @@
     </animation>
 	<animation id="troop_stand_1h_without_shield_4" param1="0" duration="65" anim_data_name="anim_1h_without_shield_stand_idle_3" source1="400" source2="1881" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -732,7 +714,6 @@
     </animation>
 	<animation id="troop_stand_1h_without_shield_5" param1="0" duration="55" anim_data_name="anim_1h_without_shield_stand_idle_5" source1="150" source2="1554" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -740,7 +721,6 @@
     </animation>
 	<animation id="troop_stand_1h_without_shield_6" param1="0" duration="55" anim_data_name="anim_1h_without_shield_stand_idle_6" source1="150" source2="1554" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -749,7 +729,6 @@
 	
 	<animation id="troop_stand_javelin_without_shield_1" param1="0" duration="65" anim_data_name="anim_javelin_without_shield_stand_idle_1" source1="400" source2="1881" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -757,7 +736,6 @@
     </animation>
 	<animation id="troop_stand_javelin_without_shield_2" param1="0" duration="65" anim_data_name="anim_javelin_without_shield_stand_idle_2" source1="150" source2="1660" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -765,7 +743,6 @@
     </animation>
 	<animation id="troop_stand_javelin_without_shield_3" param1="0" duration="65" anim_data_name="anim_javelin_without_shield_stand_idle_3" source1="150" source2="1660" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -774,7 +751,6 @@
 	
 	<!-- <animation id="troop_stand_2h_1" param1="0" duration="75" anim_data_name="anim_2h_stand_idle_1" source1="150" source2="1736" blend_in_period="0.5" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom"> -->
       <!-- <flags> -->
-        <!-- <flag name="cyclic" /> -->
         <!-- <flag name="allow_head_movement" /> -->
         <!-- <flag name="randomization_weight" value="1" /> -->
         <!-- <flag name="priority" value="1" /> -->
@@ -782,7 +758,6 @@
     <!-- </animation> -->
 	<!-- <animation id="troop_stand_2h_2" param1="0" duration="80" anim_data_name="anim_2h_stand_idle_2" source1="150" source2="1940" blend_in_period="0.5" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom"> -->
       <!-- <flags> -->
-        <!-- <flag name="cyclic" /> -->
         <!-- <flag name="allow_head_movement" /> -->
         <!-- <flag name="randomization_weight" value="1" /> -->
         <!-- <flag name="priority" value="1" /> -->
@@ -790,7 +765,6 @@
     <!-- </animation> -->
 	<!-- <animation id="troop_stand_2h_3" param1="0" duration="90" anim_data_name="anim_2h_stand_idle_3" source1="150" source2="2233" blend_in_period="0.5" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom"> -->
       <!-- <flags> -->
-        <!-- <flag name="cyclic" /> -->
         <!-- <flag name="allow_head_movement" /> -->
         <!-- <flag name="randomization_weight" value="1" /> -->
         <!-- <flag name="priority" value="1" /> -->
@@ -798,7 +772,6 @@
     <!-- </animation> -->
 	<!-- <animation id="troop_stand_2h_4" param1="0" duration="65" anim_data_name="anim_2h_stand_idle_4" source1="150" source2="1926" blend_in_period="0.5" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom"> -->
       <!-- <flags> -->
-        <!-- <flag name="cyclic" /> -->
         <!-- <flag name="allow_head_movement" /> -->
         <!-- <flag name="randomization_weight" value="1" /> -->
         <!-- <flag name="priority" value="1" /> -->
@@ -806,7 +779,6 @@
     <!-- </animation> -->
 	<!-- <animation id="troop_stand_2h_5" param1="0" duration="57" anim_data_name="anim_2h_stand_idle_5" source1="150" source2="1881" blend_in_period="0.5" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom"> -->
       <!-- <flags> -->
-        <!-- <flag name="cyclic" /> -->
         <!-- <flag name="allow_head_movement" /> -->
         <!-- <flag name="randomization_weight" value="1" /> -->
         <!-- <flag name="priority" value="1" /> -->
@@ -814,7 +786,6 @@
     <!-- </animation> -->
 	<!-- <animation id="troop_stand_2h_6" param1="0" duration="62" anim_data_name="anim_2h_stand_idle_6" source1="150" source2="1992" blend_in_period="0.5" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom"> -->
       <!-- <flags> -->
-        <!-- <flag name="cyclic" /> -->
         <!-- <flag name="allow_head_movement" /> -->
         <!-- <flag name="randomization_weight" value="1" /> -->
         <!-- <flag name="priority" value="1" /> -->
@@ -825,7 +796,6 @@
 	
 	<animation id="troop_stand_2h_1" param1="0" duration="65" anim_data_name="anim_2h_stand_idle_1" source1="150" source2="1926" blend_in_period="0.9" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/soldier_idle">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -833,7 +803,6 @@
     </animation>
 	<animation id="troop_stand_2h_2" param1="0" duration="65" anim_data_name="anim_2h_stand_idle_2" source1="150" source2="1926" blend_in_period="0.9" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -841,7 +810,6 @@
     </animation>
 	<animation id="troop_stand_2h_3" param1="0" duration="65" anim_data_name="anim_2h_stand_idle_3" source1="150" source2="1926" blend_in_period="0.9" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -849,7 +817,6 @@
     </animation>
 	<animation id="troop_stand_2h_4" param1="0" duration="65" anim_data_name="anim_2h_stand_idle_4" source1="150" source2="1926" blend_in_period="0.9" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="2" />
         <flag name="priority" value="1" />
@@ -857,7 +824,6 @@
     </animation>
 	<animation id="troop_stand_2h_5" param1="0" duration="57" anim_data_name="anim_2h_stand_idle_5" source1="150" source2="1881" blend_in_period="0.9" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -865,7 +831,6 @@
     </animation>
 	<animation id="troop_stand_2h_6" param1="0" duration="62" anim_data_name="anim_2h_stand_idle_6" source1="150" source2="1992" blend_in_period="0.9" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom"> -->
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -876,7 +841,6 @@
 	
 	<animation id="troop_stand_bow_1" param1="0" duration="60" anim_data_name="anim_bow_stand_idle_2" source1="150" source2="1835" blend_in_period="0.5" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/soldier_idle">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -884,7 +848,6 @@
     </animation>
 	<animation id="troop_stand_bow_2" param1="0" duration="60" anim_data_name="anim_bow_stand_idle_2" source1="150" source2="1835" blend_in_period="0.5" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="3" />
         <flag name="priority" value="1" />
@@ -892,7 +855,6 @@
     </animation>
 	<animation id="troop_stand_bow_3" param1="0" duration="70" anim_data_name="anim_bow_stand_idle_3" source1="150" source2="2128" blend_in_period="0.5" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -900,7 +862,6 @@
     </animation>
 	<animation id="troop_stand_bow_4" param1="0" duration="60" anim_data_name="anim_bow_stand_idle_4" source1="150" source2="1835" blend_in_period="0.5" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -909,7 +870,6 @@
 	
 	<animation id="troop_stand_crossbow_1" param1="0" duration="70" anim_data_name="anim_crossbow_stand_idle_1" source1="150" source2="1835" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/soldier_idle">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -917,7 +877,6 @@
     </animation>
 	<animation id="troop_stand_crossbow_2" param1="0" duration="75" anim_data_name="anim_crossbow_stand_idle_2" source1="150" source2="2062" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -925,7 +884,6 @@
     </animation>
 	<animation id="troop_stand_crossbow_3" param1="0" duration="75" anim_data_name="anim_crossbow_stand_idle_3" source1="150" source2="2062" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -934,7 +892,6 @@
 	
 	<animation id="troop_stand_spear_1" param1="0" duration="65" anim_data_name="anim_spear_stand_idle_1" source1="150" source2="1650" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/soldier_idle">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -942,7 +899,6 @@
     </animation>
 	<animation id="troop_stand_spear_2" param1="0" duration="70" anim_data_name="anim_spear_stand_idle_2" source1="150" source2="1973" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -950,7 +906,6 @@
     </animation>
 	<animation id="troop_stand_spear_3" param1="0" duration="66" anim_data_name="anim_spear_stand_idle_3" source1="150" source2="2132" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -958,7 +913,6 @@
     </animation>
 	<animation id="troop_stand_spear_4" param1="0" duration="65" anim_data_name="anim_spear_stand_idle_4" source1="150" source2="1650" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -966,7 +920,6 @@
     </animation>
 	<animation id="troop_stand_spear_5" param1="0" duration="70" anim_data_name="anim_spear_stand_idle_5" source1="150" source2="1973" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -974,7 +927,6 @@
     </animation>
 	<animation id="troop_stand_spear_6" param1="0" duration="75" anim_data_name="anim_spear_stand_idle_6" source1="150" source2="2132" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -985,7 +937,6 @@
 
 	<animation id="troop_stand_unarmed_1_left_stance" param1="0" duration="65" anim_data_name="anim_unarmed_stand_idle_4_left_stance" source1="400" source2="1881" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/soldier_idle">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -993,7 +944,6 @@
     </animation>
 	<animation id="troop_stand_unarmed_2_left_stance" param1="0" duration="65" anim_data_name="anim_unarmed_stand_idle_4_left_stance" source1="400" source2="1881" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -1001,7 +951,6 @@
     </animation>
 	<animation id="troop_stand_unarmed_3_left_stance" param1="0" duration="55" anim_data_name="anim_unarmed_stand_idle_5_left_stance" source1="400" source2="1554" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1009,7 +958,6 @@
     </animation>
 	<animation id="troop_stand_unarmed_4_left_stance" param1="0" duration="65" anim_data_name="anim_unarmed_stand_idle_4_left_stance" source1="400" source2="1881" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -1017,7 +965,6 @@
     </animation>
 	<animation id="troop_stand_unarmed_5_left_stance" param1="0" duration="55" anim_data_name="anim_unarmed_stand_idle_5_left_stance" source1="150" source2="1554" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1026,7 +973,6 @@
 	
 	<animation id="troop_stand_1h_with_shield_1_left_stance" param1="0" duration="65" anim_data_name="anim_1h_with_shield_stand_idle_1_left_stance" source1="150" source2="1660" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/soldier_idle">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1034,7 +980,6 @@
     </animation>
 	<animation id="troop_stand_1h_with_shield_2_left_stance" param1="0" duration="55" anim_data_name="anim_1h_with_shield_stand_idle_2_left_stance" source1="150" source2="1415" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1042,7 +987,6 @@
     </animation>
 	<animation id="troop_stand_1h_with_shield_3_left_stance" param1="0" duration="65" anim_data_name="anim_1h_with_shield_stand_idle_3_left_stance" source1="150" source2="1861" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1050,7 +994,6 @@
     </animation>
 	<animation id="troop_stand_1h_with_shield_4_left_stance" param1="0" duration="60" anim_data_name="anim_1h_with_shield_stand_idle_4_left_stance" source1="100" source2="1701" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1058,7 +1001,6 @@
     </animation>
 	<animation id="troop_stand_1h_with_shield_5_left_stance" param1="0" duration="57" anim_data_name="anim_1h_with_shield_stand_idle_5_left_stance" source1="150" source2="1861" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1066,7 +1008,6 @@
     </animation>
 	<animation id="troop_stand_1h_with_shield_6_left_stance" param1="0" duration="65" anim_data_name="anim_1h_with_shield_stand_idle_6_left_stance" source1="150" source2="1861" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -1075,7 +1016,6 @@
 	
 	<animation id="troop_stand_javelin_with_shield_1_left_stance" param1="0" duration="65" anim_data_name="anim_javelin_with_shield_stand_idle_1" source1="150" source2="1660" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1083,7 +1023,6 @@
     </animation>
 	<animation id="troop_stand_javelin_with_shield_2_left_stance" param1="0" duration="65" anim_data_name="anim_javelin_with_shield_stand_idle_2" source1="150" source2="1660" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1091,7 +1030,6 @@
     </animation>
 	<animation id="troop_stand_javelin_with_shield_3_left_stance" param1="0" duration="65" anim_data_name="anim_javelin_with_shield_stand_idle_3" source1="150" source2="1861" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -1104,7 +1042,6 @@
 	
 	<animation id="troop_stand_1h_without_shield_1_left_stance" param1="0" duration="65" anim_data_name="anim_1h_without_shield_stand_idle_1_left_stance" source1="400" source2="1881" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/soldier_idle">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -1112,7 +1049,6 @@
     </animation>
 	<animation id="troop_stand_1h_without_shield_2_left_stance" param1="0" duration="65" anim_data_name="anim_1h_without_shield_stand_idle_2_left_stance" source1="400" source2="1881" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -1120,7 +1056,6 @@
     </animation>
 	<animation id="troop_stand_1h_without_shield_3_left_stance" param1="0" duration="55" anim_data_name="anim_1h_without_shield_stand_idle_4_left_stance" source1="400" source2="1554" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1128,7 +1063,6 @@
     </animation>
 	<animation id="troop_stand_1h_without_shield_4_left_stance" param1="0" duration="65" anim_data_name="anim_1h_without_shield_stand_idle_3_left_stance" source1="400" source2="1881" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -1136,7 +1070,6 @@
     </animation>
 	<animation id="troop_stand_1h_without_shield_5_left_stance" param1="0" duration="55" anim_data_name="anim_1h_without_shield_stand_idle_5_left_stance" source1="150" source2="1554" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1144,7 +1077,6 @@
     </animation>
 	<animation id="troop_stand_1h_without_shield_6_left_stance" param1="0" duration="55" anim_data_name="anim_1h_without_shield_stand_idle_6_left_stance" source1="150" source2="1554" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="2" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1153,7 +1085,6 @@
 	
 	<animation id="troop_stand_javelin_without_shield_1_left_stance" param1="0" duration="65" anim_data_name="anim_javelin_without_shield_stand_idle_1" source1="400" source2="1881" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -1161,7 +1092,6 @@
     </animation>
 	<animation id="troop_stand_javelin_without_shield_2_left_stance" param1="0" duration="65" anim_data_name="anim_javelin_without_shield_stand_idle_2" source1="150" source2="1660" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1169,7 +1099,6 @@
     </animation>
 	<animation id="troop_stand_javelin_without_shield_3_left_stance" param1="0" duration="65" anim_data_name="anim_javelin_without_shield_stand_idle_3" source1="150" source2="1660" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1183,7 +1112,6 @@
 	
 	<animation id="troop_stand_2h_1_left_stance" param1="0" duration="65" anim_data_name="anim_2h_stand_idle_1_left_stance" source1="150" source2="1926" blend_in_period="0.9" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/soldier_idle" >
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1191,7 +1119,6 @@
     </animation>
 	<animation id="troop_stand_2h_2_left_stance" param1="0" duration="65" anim_data_name="anim_2h_stand_idle_2_left_stance" source1="150" source2="1926" blend_in_period="0.9" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -1199,7 +1126,6 @@
     </animation>
 	<animation id="troop_stand_2h_3_left_stance" param1="0" duration="65" anim_data_name="anim_2h_stand_idle_3_left_stance" source1="150" source2="1926" blend_in_period="0.9" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1207,7 +1133,6 @@
     </animation>
 	<animation id="troop_stand_2h_4_left_stance" param1="0" duration="65" anim_data_name="anim_2h_stand_idle_4_left_stance" source1="150" source2="1926" blend_in_period="0.9" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="2" />
         <flag name="priority" value="1" />
@@ -1215,7 +1140,6 @@
     </animation>
 	<animation id="troop_stand_2h_5_left_stance" param1="0" duration="57" anim_data_name="anim_2h_stand_idle_5_left_stance" source1="150" source2="1881" blend_in_period="0.9" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1223,7 +1147,6 @@
     </animation>
 	<animation id="troop_stand_2h_6_left_stance" param1="0" duration="62" anim_data_name="anim_2h_stand_idle_6_left_stance" source1="150" source2="1992" blend_in_period="0.9" left_hand_pose="4" right_hand_pose="4" facial_anim_id="female_custom"> -->
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1233,7 +1156,6 @@
 	
 	<animation id="troop_stand_spear_1_left_stance" param1="0" duration="65" anim_data_name="anim_spear_stand_idle_1_left_stance" source1="150" source2="1650" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom" step_points="0.1, -1.0, -1.0, -1.0" sound_code="event:/mission/movement/foley/soldier_idle">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -1241,7 +1163,6 @@
     </animation>
 	<animation id="troop_stand_spear_2_left_stance" param1="0" duration="70" anim_data_name="anim_spear_stand_idle_2_left_stance" source1="150" source2="1973" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1249,7 +1170,6 @@
     </animation>
 	<animation id="troop_stand_spear_3_left_stance" param1="0" duration="66" anim_data_name="anim_spear_stand_idle_3_left_stance" source1="150" source2="2132" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1257,7 +1177,6 @@
     </animation>
 	<animation id="troop_stand_spear_4_left_stance" param1="0" duration="65" anim_data_name="anim_spear_stand_idle_4_left_stance" source1="150" source2="1650" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1265,7 +1184,6 @@
     </animation>
 	<animation id="troop_stand_spear_5_left_stance" param1="0" duration="70" anim_data_name="anim_spear_stand_idle_5_left_stance" source1="150" source2="1973" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="1" />
         <flag name="priority" value="1" />
@@ -1273,7 +1191,6 @@
     </animation>
 	<animation id="troop_stand_spear_6_left_stance" param1="0" duration="65" anim_data_name="anim_spear_stand_idle_6_left_stance" source1="150" source2="1650" blend_in_period="0.5" left_hand_pose="2" right_hand_pose="3" facial_anim_id="female_custom">
       <flags>
-        <flag name="cyclic" />
         <flag name="allow_head_movement" />
         <flag name="randomization_weight" value="5" />
         <flag name="priority" value="1" />
@@ -4247,7 +4164,7 @@
 	
 
 
-    <animation id="_visual_test_morph_animation" param1="0" duration="1" anim_data_name="anim_guard_idle_long" source1="2222" source2="2222" left_hand_pose="3" right_hand_pose="3" >
+    <animation id="_visual_test_morph_animation" param1="0" duration="1" anim_data_name="anim_guard_idle_long" source1="2222" source2="2222" left_hand_pose="3" right_hand_pose="3" facial_anim_id="idle_survive" >
       <flags>
         <flag name="cyclic" />
         <flag name="allow_head_movement" />
@@ -7755,6 +7672,7 @@
       </flags>
     </animation>
 	
+	
 	<animation id="order_shout" duration="1.2" anim_data_name="anim_order_shout" source1="1" source2="45" blend_in_period="0.2" blend_out_period="0.2" facial_anim_id="idle_normal">
       <flags>
 		<flag name="cyclic" />
@@ -7762,6 +7680,141 @@
       </flags>
     </animation>
 	
+	<animation id="crowning_crowner_action" duration="20" anim_data_name="anim_crowner_dubber2" source1="300" source2="977" blend_in_period="0.0" blend_out_period="0.0" left_hand_pose="2" right_hand_pose="2" continue_to_action="crowning_crowner_action_continue" facial_anim_id="talking_happy">
+      <flags>
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>	
+	<animation id="crowning_crowner_action_continue" duration="16" anim_data_name="anim_crowner_dubber2" source1="977" source2="1455" blend_in_period="0.0" blend_out_period="0.0" left_hand_pose="1" right_hand_pose="1" continue_to_action="crowning_crowner_action_continue_idle" facial_anim_id="lookdown">
+      <flags>
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>		
+	<animation id="crowning_crowner_action_continue_idle" duration="14" anim_data_name="anim_crowner_dubber2" source1="1455" source2="1875" blend_in_period="0.0" blend_out_period="0.0" left_hand_pose="1" right_hand_pose="1" facial_anim_id="lookdown">
+      <flags>
+		<flag name="cyclic" />
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>	
+	
+	<animation id="crowning_crowned_action" duration="20" anim_data_name="anim_crowned_dubbed2" source1="300" source2="977" blend_in_period="0.0" blend_out_period="0.0" left_hand_pose="1" right_hand_pose="1" continue_to_action="crowning_crowned_action_continue" facial_anim_id="lookdown">
+      <flags>
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>		
+	<animation id="crowning_crowned_action_continue" duration="26" anim_data_name="anim_crowned_dubbed2" source1="977" source2="1909" blend_in_period="0.0" blend_out_period="0.0" left_hand_pose="1" right_hand_pose="1" continue_to_action="crowning_crowned_action_continue_idle" facial_anim_id="male_custom">
+      <flags>
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>	
+	<animation id="crowning_crowned_action_continue_idle" duration="8" anim_data_name="anim_crowned_dubbed2" source1="1909" source2="2036" blend_in_period="0.0" blend_out_period="0.0" left_hand_pose="1" right_hand_pose="0" facial_anim_id="male_custom">
+      <flags>
+		<flag name="cyclic" />	  
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>		
+
+  
+  
+  	<animation id="knighthood_knighter_idle" duration="4" anim_data_name="anim_crowner_dubber" source1="950" source2="1008" blend_in_period="0.0" blend_out_period="0.0" left_hand_pose="2" right_hand_pose="2" facial_anim_id="idle_pleased">
+      <flags>
+		<flag name="cyclic" />
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>	
+	<animation id="knighthood_knighter_action" duration="32" anim_data_name="anim_crowner_dubber" source1="30" source2="1008" blend_in_period="0.0" blend_out_period="0.0" left_hand_pose="2" right_hand_pose="2" continue_to_action="knighthood_knighter_action_continue" facial_anim_id="idle_pleased">
+      <flags>
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>	
+	<animation id="knighthood_knighter_action_continue" duration="2.1" anim_data_name="anim_crowner_dubber" source1="950" source2="1008" blend_in_period="0.0" blend_out_period="0.0" left_hand_pose="1" right_hand_pose="1" continue_to_action="knighthood_knighter_action_continue_idle" facial_anim_id="idle_pleased">
+      <flags>
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>		
+	<animation id="knighthood_knighter_action_continue_idle" duration="4" anim_data_name="anim_crowner_dubber" source1="950" source2="1008" blend_in_period="0.0" blend_out_period="0.0" left_hand_pose="1" right_hand_pose="1" facial_anim_id="idle_pleased">
+      <flags>
+		<flag name="cyclic" />
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>
+	
+	
+		
+	<animation id="knighthood_knighted_idle" duration="4" anim_data_name="anim_crowned_dubbed" source1="20" source2="60" blend_in_period="0.0" blend_out_period="0.0" left_hand_pose="1" right_hand_pose="1" facial_anim_id="idle_pleased">
+      <flags>
+		<flag name="cyclic" />
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>			
+	<animation id="knighthood_knighted_action" duration="32" anim_data_name="anim_crowned_dubbed" source1="30" source2="1008" blend_in_period="0.0" blend_out_period="0.0" left_hand_pose="1" right_hand_pose="1" continue_to_action="knighthood_knighted_action_continue" facial_anim_id="idle_pleased">
+      <flags>
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>		
+	<animation id="knighthood_knighted_action_continue" duration="20" anim_data_name="anim_crowned_dubbed" source1="20" source2="60" blend_in_period="0.0" blend_out_period="0.0" left_hand_pose="1" right_hand_pose="1" continue_to_action="knighthood_knighted_action_continue_idle" facial_anim_id="idle_pleased">
+      <flags>
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>	
+	<animation id="knighthood_knighted_action_continue_idle" duration="1" anim_data_name="anim_crowned_dubbed" source1="20" source2="60" blend_in_period="0.0" blend_out_period="0.0" left_hand_pose="1" right_hand_pose="0" facial_anim_id="idle_pleased">
+      <flags>
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>	
+
+	
+
+	<animation id="motherhood_positive" duration="42" anim_data_name="anim_motherhood" source1="1" source2="1268" blend_in_period="0.4" blend_out_period="0.4" left_hand_pose="1" right_hand_pose="1" facial_anim_id="convo_delighted">
+      <flags>
+		<flag name="cyclic" />	  
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>	
+	
+
+	<animation id="fatherhood_positive" duration="30" anim_data_name="anim_fatherhood" source1="10" source2="800" blend_in_period="0.0" blend_out_period="0.0" left_hand_pose="1" right_hand_pose="1" continue_to_action="fatherhood_positive_continue" facial_anim_id="convo_bewildered">
+      <flags>
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>	
+	<animation id="fatherhood_positive_continue" duration="10" anim_data_name="anim_fatherhood" source1="800" source2="730" blend_in_period="0.0" blend_out_period="0.0" left_hand_pose="1" right_hand_pose="1" facial_anim_id="convo_delighted">
+      <flags>
+		<flag name="cyclic" />	  
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>		
+
+
+	<animation id="anim_mainstory_cutscene_1" duration="23" anim_data_name="anim_notifications_bannerpiece" source1="559" source2="1268" blend_in_period="0.0" blend_out_period="0.0" facial_anim_id="idle_lookaround">
+      <flags>
+		<flag name="keep" />
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>	
+
+	<animation id="anim_mainstory_cutscene_2" duration="20" anim_data_name="anim_notifications_bannerpiece" source1="2113" source2="2727" blend_in_period="0.0" blend_out_period="0.0" facial_anim_id="idle_lookaround">
+      <flags>
+		<flag name="keep" />
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>	
+	<animation id="anim_mainstory_cutscene_3" duration="26" anim_data_name="anim_notifications_bannerpiece" source1="1277" source2="2059" blend_in_period="0.0" blend_out_period="0.0" facial_anim_id="idle_lookaround">
+      <flags>
+		<flag name="keep" />
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>	
+
+
+	<animation id="anim_mainstory_cutscene_create_faction" duration="7" anim_data_name="anim_king_sit" source1="1196" source2="1336" blend_in_period="0.0" blend_out_period="0.0" facial_anim_id="idle_lookaround">
+      <flags>
+		<flag name="keep" />	  
+        <flag name="priority" value="8" />
+      </flags>
+    </animation>	
+
+
 	
   </animations>
 </base>

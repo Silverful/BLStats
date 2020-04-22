@@ -3919,6 +3919,21 @@
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
+   <Item id="mp_brass_lamellar_shoulder_white"
+        name="{=*}Northern Lamellar Shoulders"
+        mesh="mp_brass_lamellar_shoulder_white"
+        culture="Culture.sturgia"
+        weight="5.0"
+        appearance="2"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="16"
+             arm_armor="6"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
   <Item multiplayer_item="true"
         id="mp_battania_warlord_pauldrons"
         name="{=Ldqb9oAF}Highland Warlord Pauldrons"
@@ -12513,7 +12528,7 @@
               physics_material="wood_shield"
               item_usage="hand_shield"
               position="-0.02, 0.0, 0.0"
-              rotation="-195.0,-90.0,12.0"
+              rotation="-195.0,-90.0,6.0"
               weapon_length="70"
               center_of_mass="0.0,0.065,0.05"
               hit_points="125">
@@ -13287,7 +13302,7 @@
               physics_material="wood_shield"
               item_usage="hand_shield"
               position="-0.02, 0.0, 0.0"
-              rotation="-195.0,-90.0,12.0"
+              rotation="-195.0,-90.0,25.0"
               weapon_length="70"
               center_of_mass="0.0,0.065,0.05"
               hit_points="105">

@@ -1178,6 +1178,9 @@
 
                       hit_bone_index="27"/>
 
+    <combat_parameter id="walking_staff_reverse"   weapon_offset="0,0,-0.6"
+
+                      hit_bone_index="27"/>
 
 
 
