@@ -1,0 +1,8 @@
+animations_movement_and_behaviour
+animations_multiplayer
+combat_parameters
+native_parameters
+mpitems
+mpcharacters
+mp_crafting_pieces
+managed_core_parameters
