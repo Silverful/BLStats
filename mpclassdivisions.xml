@@ -50,6 +50,7 @@
             name="{=DlKYZgA3}Improved Armor"
             description="{=IUsT27oV}Provides +9 armor."
             icon="PerkToughness"
+            hero_idle_anim="act_vlandia_mp_peasant_levy_armorperk_idle"
             perk_list="1">
         <Effects target="PlayerOnly">
           <Effect type="PerkAlternativeEquipment"
@@ -155,6 +156,7 @@
             name="{=W4iKIM2s}Small Shield"
             description="{=sOARp3Dc}Grants Shield, makes blocking easier, effective against ranged units."
             icon="PerkStrongerShields"
+            hero_idle_anim="act_vlandia_mp_peasant_levy_shieldperk_idle"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
@@ -321,7 +323,7 @@
                    icon="Infantry_Heavy"
                    melee_ai="50"
                    ranged_ai="50"
-                   armor="41"
+                   armor="37"
                    movement_speed="0.77"
                    combat_movement_speed="0.8"
                    acceleration="2.9">
@@ -852,6 +854,7 @@
             name="{=W4iKIM2s}Small Shield"
             description="{=sOARp3Dc}Grants Shield, makes blocking easier, effective against ranged units."
             icon="PerkHardened"
+            hero_mount_idle_anim="act_vlandia_mp_vanguard_mount_idle_smallshieldperk"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
@@ -878,7 +881,7 @@
                    hero_mount_idle_anim="act_vlandia_mp_knight_mount_idle"
                    troop_mount_idle_anim="act_horse_idle_1"
                    multiplier="0.25"
-                   cost="180"
+                   cost="190"
                    icon="Cavalry_Heavy"
                    melee_ai="70"
                    ranged_ai="50"
@@ -1037,7 +1040,7 @@
                    melee_ai="30"
                    ranged_ai="40"
                    armor="10"
-                   movement_speed="0.78"
+                   movement_speed="0.8"
                    combat_movement_speed="0.8"
                    acceleration="2.8">
     <Perks>
@@ -1639,13 +1642,13 @@
       <!-- Second perks-->
       <Perk game_mode="all"
             name="{=7LmUe8fQ}Menavlion"
-            description="{=V62I3vA5}Grants Shorter version of Menavlion, an imperial polearm."
+            description="{=zCqpSDcF}Grants Shorter version of Menavlion."
             icon="PerkPolearms"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item3"
-                  id="mp_empire_polearm" />
+                  id="mp_empire_menavlion" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
@@ -1678,7 +1681,7 @@
                    hero_mount_idle_anim="act_empire_mp_courser_mount_idle"
                    troop_mount_idle_anim="act_horse_idle_1"
                    multiplier="0.35"
-                   cost="130"
+                   cost="140"
                    icon="Cavalry_Light"
                    melee_ai="50"
                    ranged_ai="50"
@@ -2101,7 +2104,6 @@
             name="{=dQEa2hZa}Long Spear"
             description="{=p8XIZhbb}Replaces Short Spear with Long Spear, effective against cavalry and crowd control."
             icon="PerkSpears"
-            hero_idle_anim="act_khuzait_mp_spear_infantry_idle_longspearperk"
             perk_list="1">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
@@ -2442,6 +2444,7 @@
             name="{=VI4gQt8Q}Cavalry Mace"
             description="{=CG5D5r2w}Replaces Sword with Mace, effective against armored opponents."
             icon="PerkMaces"
+            hero_mount_idle_anim="act_khuzait_mp_nomad_mount_idle_maceperk"
             perk_list="1">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
@@ -2741,7 +2744,7 @@
                    melee_ai="50"
                    ranged_ai="50"
                    armor="13"
-                   movement_speed="0.78"
+                   movement_speed="0.8"
                    combat_movement_speed="0.8"
                    acceleration="2.8">
     <Perks>
@@ -2851,6 +2854,7 @@
       <Perk game_mode="all"
             name="{=R7TAImaC}Larger Shield"
             description="{=xqlMIG4I}Replaces Shield with a larger shield, increases durability."
+            hero_idle_anim="act_aserai_mp_tribal_warrior_idle_bigshieldperk"
             icon="PerkHardened"
             perk_list="1">
         <Effects>
@@ -3376,7 +3380,7 @@
   <MPClassDivision id="mp_light_cavalry_aserai"
                    hero="mp_light_cavalry_aserai_hero"
                    troop="mp_light_cavalry_aserai_troop"
-                   hero_mount_idle_anim="act_hero_mount_idle_horse"
+                   hero_mount_idle_anim="act_aserai_mp_beduin_mount_idle"
                    troop_mount_idle_anim="act_horse_idle_1"
                    multiplier="0.35"
                    cost="130"
@@ -3766,6 +3770,7 @@
             name="{=W4iKIM2s}Small Shield"
             description="{=JbODbx5i}Grants Shield, makes blocking easier, effective against ranged units."
             icon="PerkStrongerShields"
+            hero_idle_anim="act_sturgia_mp_warrior_shieldperk_idle"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
@@ -3786,7 +3791,7 @@
                    melee_ai="50"
                    ranged_ai="50"
                    armor="10"
-                   movement_speed="0.75"
+                   movement_speed="0.79"
                    combat_movement_speed="0.7"
                    acceleration="3.0">
     <Perks>
@@ -3806,6 +3811,7 @@
             name="{=R7TAImaC}Larger Shield"
             description="{=xqlMIG4I}Replaces Shield with a larger shield, increases durability."
             icon="PerkHardened"
+            hero_idle_anim="act_sturgia_mp_brigand_idle_largershieldperk"
             perk_list="1">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
@@ -3936,12 +3942,12 @@
                    troop="mp_shock_infantry_sturgia_troop"
                    hero_idle_anim="act_sturgia_mp_ulfhednar_idle"
                    troop_idle_anim="act_idle_2h_1"
-                   multiplier="0.70"
+                   multiplier="0.68"
                    cost="120"
                    icon="Special_Axeman"
                    melee_ai="50"
                    ranged_ai="50"
-                   armor="15"
+                   armor="6"
                    movement_speed="0.82"
                    combat_movement_speed="1.0"
                    acceleration="3.0"
@@ -4086,7 +4092,7 @@
                    hero_idle_anim="act_sturgia_mp_huskarl_idle"
                    troop_idle_anim="act_idle_unarmed_1"
                    multiplier="0.62"
-                   cost="140"
+                   cost="150"
                    icon="Infantry_Heavy"
                    melee_ai="60"
                    ranged_ai="50"
@@ -4502,7 +4508,7 @@
                    hero_mount_idle_anim="act_sturgia_mp_druzhina_mount_idle"
                    troop_mount_idle_anim="act_horse_idle_1"
                    multiplier="0.25"
-                   cost="170"
+                   cost="180"
                    icon="Cavalry_Heavy"
                    melee_ai="60"
                    ranged_ai="50"
@@ -4539,6 +4545,7 @@
             name="{=R7TAImaC}Larger Shield"
             description="{=xqlMIG4I}Replaces Shield with a larger shield, increases durability."
             icon="PerkHardened"
+            hero_mount_idle_anim="act_sturgia_mp_druzhina_idle_largeshieldperk"
             perk_list="1">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
@@ -4591,7 +4598,7 @@
                    troop="mp_light_infantry_battania_troop"
                    hero_idle_anim="act_battania_mp_clan_warrior_idle"
                    troop_idle_anim="act_idle_unarmed_1"
-                   multiplier="0.8"
+                   multiplier="0.84"
                    cost="100"
                    icon="Infantry_Light"
                    melee_ai="40"
@@ -4751,7 +4758,7 @@
                    troop="mp_shock_infantry_battania_troop"
                    hero_idle_anim="act_battania_mp_savage_idle"
                    troop_idle_anim="act_idle_unarmed_1"
-                   multiplier="0.65"
+                   multiplier="0.72"
                    cost="110"
                    icon="Special_Falxman"
                    melee_ai="50"
@@ -4921,7 +4928,7 @@
                    troop="mp_skirmisher_battania_troop"
                    hero_idle_anim="act_battania_mp_wildling_idle"
                    troop_idle_anim="act_idle_1h_with_shield_1"
-                   multiplier="0.62"
+                   multiplier="0.68"
                    cost="120"
                    icon="Special_JavelinThrower"
                    melee_ai="50"
@@ -5011,7 +5018,7 @@
                    icon="Infantry_Heavy"
                    melee_ai="50"
                    ranged_ai="50"
-                   armor="40"
+                   armor="43"
                    movement_speed="0.79"
                    combat_movement_speed="0.9"
                    acceleration="2.6"
@@ -5345,12 +5352,12 @@
                    troop="mp_light_cavalry_battania_troop"
                    hero_mount_idle_anim="act_battania_mp_mounted_warrior_mount_idle"
                    troop_mount_idle_anim="act_horse_idle_1"
-                   multiplier="0.35"
+                   multiplier="0.4"
                    cost="140"
                    icon="Cavalry_Light"
                    melee_ai="50"
                    ranged_ai="50"
-                   armor="8"
+                   armor="16"
                    movement_speed="0.75"
                    combat_movement_speed="0.7"
                    acceleration="3.1">
