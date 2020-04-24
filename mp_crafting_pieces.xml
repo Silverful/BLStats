@@ -45,7 +45,7 @@
   </CraftingPiece>
   <CraftingPiece id="mp_empire_gladius_blade" name="{=V6RVUAWI}Mp Empire Gladius Blade" tier="2" piece_type="Blade" mesh="battania_blade_4" length="67.4" weight="0.9">
     <PieceUsages unavailable_usages="" />
-    <BladeData sharpness="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="empire_blade_6_scabbard_6">
+    <BladeData sharpness="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="battania_blade_4_scabbard_4">
       <Thrust damage_type="Pierce" damage_factor="2.7" />
       <Swing damage_type="Cut" damage_factor="2.8" />
     </BladeData>
@@ -1444,7 +1444,7 @@
       <Thrust damage_type="Pierce" damage_factor="1.9" />
     </BladeData>
   </CraftingPiece>
-  <CraftingPiece id="mp_khuzait_pike_blade" name="{=Zr3RapsG}Mp Khuzait Pike Blade" tier="2" piece_type="Blade" mesh="spear_blade_41" length="57" weight="0.8" excluded_item_usage_features="swing">
+  <CraftingPiece id="mp_khuzait_pike_blade" name="{=Zr3RapsG}Mp Khuzait Pike Blade" tier="2" piece_type="Blade" mesh="spear_blade_41" length="53.2" weight="0.8" excluded_item_usage_features="swing">
     <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
     <BladeData sharpness="3" physics_material="wood_weapon" body_name="bo_spear_b">
       <Thrust damage_type="Pierce" damage_factor="2.5" />
@@ -1600,7 +1600,7 @@
       <Thrust damage_type="Pierce" damage_factor="1.9" />
     </BladeData>
   </CraftingPiece>
-  <CraftingPiece id="mp_battania_lance_blade" name="{=mAgSbC6b}Mp Battania Lance Blade" tier="2" piece_type="Blade" mesh="spear_blade_41" length="45" weight="0.6" excluded_item_usage_features="swing">
+  <CraftingPiece id="mp_battania_lance_blade" name="{=mAgSbC6b}Mp Battania Lance Blade" tier="2" piece_type="Blade" mesh="spear_blade_41" length="53.2" weight="0.6" excluded_item_usage_features="swing">
     <PieceUsages unavailable_usages="Javelin" />
     <BladeData sharpness="3" physics_material="wood_weapon" body_name="bo_spear_b">
       <Thrust damage_type="Pierce" damage_factor="2" />

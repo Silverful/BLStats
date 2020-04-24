@@ -20,7 +20,7 @@
              hair_cover_type="all"
              modifier_group="plate"
              material_type="Plate"
-             beard_cover_type="type2" />
+             beard_cover_type="type3" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
@@ -163,7 +163,7 @@
       <Armor head_armor="43"
              has_gender_variations="false"
              hair_cover_type="all"
-             beard_cover_type="type2"
+             beard_cover_type="type3"
              modifier_group="plate"
              material_type="Plate" />
     </ItemComponent>
@@ -201,7 +201,7 @@
       <Armor head_armor="43"
              has_gender_variations="false"
              hair_cover_type="all"
-             beard_cover_type="type2"
+             beard_cover_type="type3"
              modifier_group="plate"
              material_type="Plate" />
     </ItemComponent>
@@ -1100,6 +1100,7 @@
       <Armor head_armor="9"
              has_gender_variations="false"
              hair_cover_type="all"
+             beard_cover_type="type2"
              modifier_group="cloth"
              material_type="Cloth" />
     </ItemComponent>
@@ -1567,7 +1568,7 @@
       <Armor head_armor="2"
              has_gender_variations="false"
              hair_cover_type="all"
-             beard_cover_type="type2"
+             beard_cover_type="type3"
              modifier_group="cloth_unarmoured"
              material_type="Cloth" />
     </ItemComponent>
@@ -1799,6 +1800,7 @@
       <Armor head_armor="15"
              has_gender_variations="false"
              hair_cover_type="all"
+             beard_cover_type="type2"
              modifier_group="plate"
              material_type="Plate" />
     </ItemComponent>
@@ -1859,7 +1861,7 @@
       <Armor head_armor="30"
              has_gender_variations="false"
              hair_cover_type="all"
-             beard_cover_type="type1"
+             beard_cover_type="type3"
              modifier_group="plate"
              material_type="Plate" />
     </ItemComponent>
@@ -2186,7 +2188,7 @@
       <Armor head_armor="15"
              has_gender_variations="false"
              hair_cover_type="all"
-             beard_cover_type="type1"
+             beard_cover_type="type3"
              modifier_group="plate"
              material_type="Plate" />
     </ItemComponent>
@@ -2962,7 +2964,7 @@
              hair_cover_type="all"
              modifier_group="chain"
              material_type="Chainmail"
-             beard_cover_type="type2" />
+             beard_cover_type="type3" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
@@ -3919,8 +3921,8 @@
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
-   <Item id="mp_brass_lamellar_shoulder_white"
-        name="{=*}Northern Lamellar Shoulders"
+  <Item id="mp_brass_lamellar_shoulder_white"
+        name="{=28KBiS2H}Northern Lamellar Shoulders"
         mesh="mp_brass_lamellar_shoulder_white"
         culture="Culture.sturgia"
         weight="5.0"
