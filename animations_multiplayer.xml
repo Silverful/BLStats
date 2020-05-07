@@ -139,7 +139,7 @@
         <flag name="priority" value="1" />
       </flags>
     </animation>
-	<animation id="battania_mp_clan_warrior_maceperk_idle" param1="0.5" duration="13.3" anim_data_name="clan_warrior_mp_maceperk_idle" source1="1" source2="401" blend_in_period="0.0" left_hand_pose="1">
+	<animation id="battania_mp_clan_warrior_maceperk_idle" param1="0.5" duration="13.3" anim_data_name="clan_warrior_mp_maceperk_idle" source1="1" source2="401" blend_in_period="0.0" left_hand_pose="3" >
       <flags>
         <flag name="cyclic" />
         <flag name="priority" value="1" />
@@ -351,6 +351,12 @@
       </flags>
     </animation>	
 	<animation id="empire_mp_courser_idle" param1="0.5" duration="18.3" anim_data_name="courser_mp_idle" source1="1" source2="551" blend_in_period="0.0">
+      <flags>
+        <flag name="cyclic" />
+        <flag name="priority" value="1" />
+      </flags>
+    </animation>
+	<animation id="empire_mp_courser_smallshieldperk_idle" param1="0.5" duration="18.3" anim_data_name="courser_mp_idle_smallshieldperk" source1="1" source2="551" blend_in_period="0.0">
       <flags>
         <flag name="cyclic" />
         <flag name="priority" value="1" />

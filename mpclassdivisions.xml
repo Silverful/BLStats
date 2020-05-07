@@ -1833,6 +1833,7 @@
             name="{=W4iKIM2s}Small Shield"
             description="{=sOARp3Dc}Grants Shield, makes blocking easier, effective against ranged units."
             icon="PerkHardened"
+            hero_mount_idle_anim="act_empire_mp_courser_mount_smallshieldperk_idle"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
@@ -4332,7 +4333,7 @@
                    troop="mp_light_cavalry_sturgia_troop"
                    hero_mount_idle_anim="act_sturgia_mp_raider_mount_idle"
                    troop_mount_idle_anim="act_horse_idle_1"
-                   multiplier="0.25"
+                   multiplier="0.36"
                    cost="130"
                    icon="Cavalry_Light"
                    melee_ai="40"
@@ -4479,6 +4480,7 @@
             name="{=Jd0Kq9lD}Shield"
             description="{=sOARp3Dc}Grants Shield, makes blocking easier, effective against ranged units."
             icon="PerkHardened"
+            hero_mount_idle_anim="act_sturgia_mp_raider_mount_shieldperk_idle"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
@@ -4596,7 +4598,7 @@
   <MPClassDivision id="mp_light_infantry_battania"
                    hero="mp_light_infantry_battania_hero"
                    troop="mp_light_infantry_battania_troop"
-                   hero_idle_anim="act_battania_mp_clan_warrior_idle"
+                   hero_idle_anim="act_battania_mp_clan_warrior_maceperk_idle"
                    troop_idle_anim="act_idle_unarmed_1"
                    multiplier="0.84"
                    cost="100"
@@ -4635,6 +4637,7 @@
             name="{=DlKYZgA3}Improved Armor"
             description="{=PFTzVdJg}Provides +9 armor."
             icon="PerkToughness"
+            hero_idle_anim="act_battania_mp_clan_warrior_idle"
             perk_list="1">
         <Effects target="PlayerOnly">
           <Effect type="PerkAlternativeEquipment"
@@ -4744,6 +4747,7 @@
             name="{=W4iKIM2s}Small Shield"
             description="{=JbODbx5i}Grants Shield, makes blocking easier, effective against ranged units."
             icon="PerkStrongerShields"
+            hero_idle_anim="act_battania_mp_clan_warrior_shieldperk_idle"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"

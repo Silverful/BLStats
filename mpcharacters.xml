@@ -32,6 +32,14 @@
       <skill id="Throwing"
              value="100" />
     </skills>
+    <equipmentSet>
+      <equipment slot="Body"
+                 id="Item.mp_layered_leather_tunic" />
+      <equipment slot="Leg"
+                 id="Item.mp_leather_cavalier_boots" />
+      <equipment slot="Cape"
+                 id="Item.mp_scarf" />
+    </equipmentSet>
   </NPCCharacter>
   <NPCCharacter id="dummy_no_armor"
                 name="{=LNfQk4MM}Min Armor (0)"

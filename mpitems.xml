@@ -12198,7 +12198,7 @@
               physics_material="wood_shield"
               item_usage="hand_shield"
               position="-0.02, 0.0, 0.0"
-              rotation="-15.0,-90.0,12.0"
+              rotation="-15.0,-90.0,-10.0"
               weapon_length="70"
               center_of_mass="0, 0, 0"
               hit_points="150">
@@ -12530,7 +12530,7 @@
               physics_material="wood_shield"
               item_usage="hand_shield"
               position="-0.02, 0.0, 0.0"
-              rotation="-195.0,-90.0,6.0"
+              rotation="-15.0,-90.0,-10.0"
               weapon_length="70"
               center_of_mass="0.0,0.065,0.05"
               hit_points="125">
@@ -12679,7 +12679,7 @@
               physics_material="wood_shield"
               item_usage="hand_shield"
               position="-0.02, 0.0, 0.0"
-              rotation="-15.0,-90.0,12.0"
+              rotation="-15.0,-90.0,-10.0"
               weapon_length="70"
               center_of_mass="0, 0.15, 0"
               hit_points="140">
@@ -12717,7 +12717,7 @@
               physics_material="wood_shield"
               item_usage="hand_shield"
               position="-0.02, 0.0, 0.0"
-              rotation="-15.0,-90.0,12.0"
+              rotation="-15.0,-90.0,-10.0"
               weapon_length="70"
               center_of_mass="0, 0.15, 0"
               hit_points="125">
@@ -13304,7 +13304,7 @@
               physics_material="wood_shield"
               item_usage="hand_shield"
               position="-0.02, 0.0, 0.0"
-              rotation="-195.0,-90.0,25.0"
+              rotation="-15.0,-90.0,-10.0"
               weapon_length="70"
               center_of_mass="0.0,0.065,0.05"
               hit_points="105">

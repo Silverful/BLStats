@@ -65,7 +65,7 @@
         <flag name="priority" value="33" />
       </flags>
     </animation>
-    <animation id="jump_left_stance" param1="0" duration="0.5" anim_data_name="anim_jump_stand" source1="7" source2="27" blend_in_period="0.2" blend_out_period="0.2" continue_to_action="act_jump_loop_left_stance" step_points="0.1, -1.0, -1.0, -1.0" voice_code="Jump">
+    <animation id="jump_left_stance" param1="0" duration="0.5" anim_data_name="anim_jump_stand" source1="7" source2="27" blend_in_period="0.2" blend_out_period="0.3" continue_to_action="act_jump_loop_left_stance" step_points="0.1, -1.0, -1.0, -1.0" voice_code="Jump">
       <flags>
         <flag name="client_prediction" />
         <flag name="enforce_lowerbody" />
@@ -75,7 +75,7 @@
         <flag name="priority" value="5" />
       </flags>
     </animation>
-    <animation id="jump_loop_left_stance" param1="0" duration="1" anim_data_name="anim_jump_loop" source1="1" source2="51" blend_in_period="0.6" blend_out_period="0.1" continue_to_action="act_jump_loop_long_left_stance">
+    <animation id="jump_loop_left_stance" param1="0" duration="0.8" anim_data_name="anim_jump_loop" source1="1" source2="51" blend_in_period="0.6" blend_out_period="0.1" continue_to_action="act_jump_loop_long_left_stance">
       <flags>
         <flag name="client_prediction" />
         <flag name="enforce_lowerbody" />
@@ -96,7 +96,7 @@
         <flag name="disable_foot_ik" />
       </flags>
     </animation>
-    <animation id="jump" param1="0" duration="0.5" anim_data_name="anim_jump_stand" source1="159" source2="179" blend_in_period="0.2" blend_out_period="0.2" continue_to_action="act_jump_loop" step_points="0.1, -1.0, -1.0, -1.0" voice_code="Jump">
+    <animation id="jump" param1="0" duration="0.5" anim_data_name="anim_jump_stand" source1="159" source2="179" blend_in_period="0.2" blend_out_period="0.3" continue_to_action="act_jump_loop" step_points="0.1, -1.0, -1.0, -1.0" voice_code="Jump">
       <flags>
         <flag name="client_prediction" />
         <flag name="enforce_lowerbody" />
@@ -127,7 +127,7 @@
         <flag name="disable_foot_ik" />
       </flags>
     </animation>
-    <animation id="jump_end_hard_left_stance" param1="0" duration="1.3" anim_data_name="anim_jump_stand" source1="83" source2="129" blend_in_period="0.1" blend_out_period="0.3" left_hand_pose="1" right_hand_pose="1">
+    <animation id="jump_end_hard_left_stance" param1="0" duration="1.3" anim_data_name="anim_jump_stand" source1="83" source2="129" blend_in_period="0.1" blend_out_period="0.3" left_hand_pose="3" right_hand_pose="3">
       <flags>
         <flag name="client_prediction" />
         <flag name="enforce_all" />
@@ -136,7 +136,7 @@
         <flag name="disable_foot_ik" />
       </flags>
     </animation>
-    <animation id="jump_end_hard" param1="0" duration="1.3" anim_data_name="anim_jump_stand" source1="233" source2="279" blend_in_period="0.1" blend_out_period="0.3" left_hand_pose="1" right_hand_pose="1">
+    <animation id="jump_end_hard" param1="0" duration="1.3" anim_data_name="anim_jump_stand" source1="233" source2="279" blend_in_period="0.1" blend_out_period="0.3" left_hand_pose="3" right_hand_pose="3">
       <flags>
         <flag name="client_prediction" />
         <flag name="enforce_all" />
@@ -3899,7 +3899,7 @@
       </flags>
     </animation>
 	
-    <animation id="equip_dagger_front_right" param1="0" duration="0.6" anim_data_name="anim_equip_dagger_front_right" source1="1" source2="25" blend_in_period="0.1" blend_out_period="0.2" combat_parameter_id="equip" step_points="-1.0, -1.0, -1.0, 0.2">
+    <animation id="equip_dagger_front_right" param1="0" duration="0.7" anim_data_name="anim_equip_dagger_front_right" source1="1" source2="22" blend_in_period="0.1" blend_out_period="0.2" combat_parameter_id="equip" step_points="-1.0, -1.0, -1.0, 0.2">
       <flags>
         <flag name="use_last_step_point_as_data" />
         <flag name="restart" />
@@ -3908,7 +3908,7 @@
         <flag name="disable_hand_ik" />
       </flags>
     </animation>
-    <animation id="unequip_dagger_front_right" param1="0" duration="0.5" anim_data_name="anim_equip_dagger_front_right" source1="10" source2="1" blend_in_period="0.2" blend_out_period="0.1" combat_parameter_id="equip" step_points="-1.0, -1.0, -1.0, 0.58">
+    <animation id="unequip_dagger_front_right" param1="0" duration="0.5" anim_data_name="anim_equip_dagger_front_right" source1="17" source2="1" blend_in_period="0.2" blend_out_period="0.1" combat_parameter_id="equip" step_points="-1.0, -1.0, -1.0, 0.58">
       <flags>
         <flag name="use_last_step_point_as_data" />
         <flag name="restart" />
@@ -4364,19 +4364,36 @@
         <flag name="priority" value="64" />
       </flags>
     </animation>
-    <!--Commented out because animation not used
-<animation id="anim_cheer_leftstance_1" param1="0" duration="5.8" anim_data_name="anim_cheering_leftstance" source1="1" source2="176" blend_in_period="0.3">
-  <flags>
-    <flag name="priority" value="64" />
-  </flags>
-</animation>-->
-    <!--Commented out because animation not used
-<animation id="anim_cheer_leftstance_2" param1="0" duration="4" anim_data_name="anim_cheering_leftstance" source1="177" source2="297" blend_in_period="0.3">
-  <flags>
-    <flag name="priority" value="64" />
-  </flags>
-</animation>-->
+
     <!-- CHEER ANIMATIONS - END /-->
+
+    <!-- TAUNT ANIMATIONS - BEGIN /-->
+    <animation id="taunt_cheer_1" param1="0" duration="5" anim_data_name="anim_cheering" source1="1" source2="161" blend_in_period="0.3" facial_anim_id="idle_cheering1">
+      <flags>
+        <flag name="lock_movement" />
+        <flag name="priority" value="64" />
+      </flags>
+    </animation>
+    <animation id="taunt_cheer_2" param1="0" duration="4" anim_data_name="anim_cheering" source1="162" source2="303" blend_in_period="0.3" facial_anim_id="idle_cheering2">
+      <flags>
+        <flag name="lock_movement" />
+        <flag name="priority" value="64" />
+      </flags>
+    </animation>
+    <animation id="taunt_cheer_3" param1="0" duration="6" anim_data_name="anim_cheering" source1="304" source2="519" blend_in_period="0.3" facial_anim_id="idle_cheering1">
+      <flags>
+        <flag name="lock_movement" />
+        <flag name="priority" value="64" />
+      </flags>
+    </animation>
+    <animation id="taunt_cheer_4" param1="0" duration="7.5" anim_data_name="anim_cheering" source1="520" source2="752" blend_in_period="0.3" facial_anim_id="idle_cheering2">
+      <flags>
+        <flag name="lock_movement" />
+        <flag name="priority" value="64" />
+      </flags>
+    </animation>
+    <!-- TAUNT ANIMATIONS - END /-->
+
     <!-- WEDDING ANIMATIONS - BEGIN /-->
     <!--Commented out because animation not used
 <animation id="anim_wedding_guest_unused" param1="0" duration="30" anim_data_name="anim_human" source1="0" source2="906" blend_in_period="0.3">
