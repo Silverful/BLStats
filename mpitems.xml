@@ -8814,6 +8814,27 @@
     <!-- Length: 18700 Weight: 2.35 -->
   </CraftedItem>
   <CraftedItem multiplayer_item="true"
+              id="mp_empire_cavalry_menavlion"
+              name="{=*}Cavalry Menavlion"
+              crafting_template="TwoHandedPolearm"
+              value="999"
+              is_merchandise="false"
+              culture="Culture.neutral_culture">
+    <Pieces>
+      <Piece id="mp_empire_cavalry_menavlion_blade"
+             Type="Blade"
+             scale_factor="90" />
+      <Piece id="mp_spear_guard_3"
+             Type="Guard"
+             scale_factor="110" />
+      <Piece id="mp_empire_cavalry_menavlion_handle"
+             Type="Handle"
+             scale_factor="90" />
+      <Piece id="mp_default_polearm_pommel"
+             Type="Pommel" />
+    </Pieces>
+  </CraftedItem>
+  <CraftedItem multiplayer_item="true"
                id="mp_empire_long_menavlion"
                name="{=acufJvyn}Long Menavlion"
                crafting_template="TwoHandedPolearm"
@@ -10538,7 +10559,7 @@
     <Pieces>
       <Piece id="mp_khuzait_mace_head"
              Type="Blade" />
-      <Piece id="mp_khuzait_mace_handle"
+      <Piece id="mp_test_mace_handle"
              Type="Handle"
              scale_factor="110" />
     </Pieces>
@@ -12662,7 +12683,7 @@
         culture="Culture.sturgia"
         using_tableau="true"
         is_merchandise="false"
-        weight="3.5"
+        weight="4"
         difficulty="0"
         appearance="0.7"
         Type="Shield"

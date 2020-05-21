@@ -13,7 +13,7 @@
                    troop="mp_light_infantry_vlandia_troop"
                    hero_idle_anim="act_vlandia_mp_peasant_levy_idle"
                    troop_idle_anim="act_idle_unarmed_1"
-                   multiplier="1.0"
+                   multiplier="0.92"
                    cost="90"
                    icon="Infantry_Light"
                    melee_ai="30"
@@ -1119,7 +1119,7 @@
                    troop="mp_shock_infantry_empire_troop"
                    hero_idle_anim="act_empire_mp_menavlion_infantry_idle"
                    troop_idle_anim="act_idle_spear_1"
-                   multiplier="0.65"
+                   multiplier="0.64"
                    cost="120"
                    icon="Special_Axeman"
                    melee_ai="50"
@@ -1128,7 +1128,7 @@
                    movement_speed="0.80"
                    combat_movement_speed="0.9"
                    acceleration="2.40"
-                   hitpoints="105">
+                   hitpoints="100">
     <Perks>
       <!-- First perks-->
       <Perk game_mode="all"
@@ -1806,13 +1806,13 @@
       <!-- Second perks-->
       <Perk game_mode="all"
             name="{=7LmUe8fQ}Menavlion"
-            description="{=zCqpSDcF}Grants Shorter version of Menavlion."
+            description="{=*}Grants Cavalry version of Menavlion."
             icon="PerkSpears"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item0"
-                  id="mp_empire_menavlion" />
+                  id="mp_empire_cavalry_menavlion" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
@@ -2419,7 +2419,7 @@
                    troop="mp_light_cavalry_khuzait_troop"
                    hero_mount_idle_anim="act_khuzait_mp_nomad_mount_idle"
                    troop_mount_idle_anim="act_horse_idle_1"
-                   multiplier="0.40"
+                   multiplier="0.44"
                    cost="130"
                    icon="Cavalry_Light"
                    melee_ai="50"
@@ -2509,7 +2509,7 @@
                    hero_mount_idle_anim="act_khuzait_mp_mounted_archer_mount_idle"
                    troop_mount_idle_anim="act_horse_idle_1"
                    multiplier="0.35"
-                   cost="160"
+                   cost="150"
                    icon="HorseArcher_Light"
                    melee_ai="50"
                    ranged_ai="60"
@@ -2576,14 +2576,14 @@
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=YoNYyLba}Spear"
-            description="{=Oweratvx}Grants Spear, effective against cavalry and crowd control."
-            icon="PerkSpears"
+            name="{=5pLEUc4t}Strong Arrows"
+            description="{=7lb73utt}Grants Strong Arrows, deals more damage."
+            icon="PerkWellSupplied"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item3"
-                  id="mp_khuzait_spear" />
+                  slot="Item2"
+                  id="mp_arrows_strong_extraammo" />
         </Effects>
       </Perk>
     </Perks>
@@ -2739,7 +2739,7 @@
                    troop="mp_skirmisher_aserai_troop"
                    hero_idle_anim="act_aserai_mp_skrimisher_idle"
                    troop_idle_anim="act_idle_1h_with_shield_1"
-                   multiplier="0.63"
+                   multiplier="0.68"
                    cost="100"
                    icon="Special_JavelinThrower"
                    melee_ai="50"
@@ -3383,7 +3383,7 @@
                    troop="mp_light_cavalry_aserai_troop"
                    hero_mount_idle_anim="act_aserai_mp_beduin_mount_idle"
                    troop_mount_idle_anim="act_horse_idle_1"
-                   multiplier="0.35"
+                   multiplier="0.4"
                    cost="130"
                    icon="Cavalry_Light"
                    melee_ai="50"
@@ -3943,7 +3943,7 @@
                    troop="mp_shock_infantry_sturgia_troop"
                    hero_idle_anim="act_sturgia_mp_ulfhednar_idle"
                    troop_idle_anim="act_idle_2h_1"
-                   multiplier="0.68"
+                   multiplier="0.64"
                    cost="120"
                    icon="Special_Axeman"
                    melee_ai="50"
@@ -4092,13 +4092,13 @@
                    troop="mp_heavy_infantry_sturgia_troop"
                    hero_idle_anim="act_sturgia_mp_huskarl_idle"
                    troop_idle_anim="act_idle_unarmed_1"
-                   multiplier="0.62"
+                   multiplier="0.59"
                    cost="150"
                    icon="Infantry_Heavy"
                    melee_ai="60"
                    ranged_ai="50"
-                   armor="40"
-                   movement_speed="0.78"
+                   armor="39"
+                   movement_speed="0.77"
                    combat_movement_speed="0.8"
                    acceleration="2.7">
     <Perks>
@@ -4115,14 +4115,14 @@
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=i7OWTiQc}Stronger Shield"
-            description="{=K1t2X1YF}Replaces Shield with a stronger and a bigger shield, increases durability."
+           name="{=kxNFecm2}Lighter Shield"
+           description="{=chOIa3PO}Replaces Shield with a lighter shield, good for faster movement."
             icon="PerkHardened"
             perk_list="1">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item1"
-                  id="mp_leather_round_shield" />
+                  id="mp_leather_round_shield_light" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
@@ -4282,14 +4282,14 @@
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=FLBYsvxp}Long Sword"
-            description="{=HZgjTUoY}Replaces your axe with sword, faster, effective at dueling and thrusting."
-            icon="PerkBetterSwords"
+           name="{=Jd0Kq9lD}Shield"
+           description="{=sOARp3Dc}Grants Shield, makes blocking easier, effective against ranged units."
+           icon="PerkHardened"
             perk_list="1">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item2"
-                  id="mp_sturgia_northern_sword" />
+                  slot="Item3"
+                  id="mp_northern_scouts_shield" />
         </Effects>
       </Perk>
       <!-- Second perks-->
@@ -4316,14 +4316,14 @@
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=Jd0Kq9lD}Shield"
-            description="{=sOARp3Dc}Grants Shield, makes blocking easier, effective against ranged units."
-            icon="PerkHardened"
+            name="{=5pLEUc4t}Strong Arrows"
+            description="{=7lb73utt}Grants Strong Arrows, deals more damage."
+            icon="PerkWellSupplied"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item3"
-                  id="mp_northern_scouts_shield" />
+                  slot="Item1"
+                  id="mp_arrows_strong_extraammo" />
         </Effects>
       </Perk>
     </Perks>
@@ -4600,7 +4600,7 @@
                    troop="mp_light_infantry_battania_troop"
                    hero_idle_anim="act_battania_mp_clan_warrior_maceperk_idle"
                    troop_idle_anim="act_idle_unarmed_1"
-                   multiplier="0.84"
+                   multiplier="0.88"
                    cost="100"
                    icon="Infantry_Light"
                    melee_ai="40"
@@ -4932,7 +4932,7 @@
                    troop="mp_skirmisher_battania_troop"
                    hero_idle_anim="act_battania_mp_wildling_idle"
                    troop_idle_anim="act_idle_1h_with_shield_1"
-                   multiplier="0.68"
+                   multiplier="0.72"
                    cost="120"
                    icon="Special_JavelinThrower"
                    melee_ai="50"
@@ -5137,14 +5137,14 @@
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=l2j9CAQn}Bastard Sword"
-            description="{=jhey75nZ}Replaces Pickaxe with Highland Bastard Sword, effective at dueling and thrusting, two handed."
+            name="{=PNZmPprx}Two Handed Sword"
+            description="{=*}Replaces Pickaxe with Highland Two Handed Sword, effective at dueling and thrusting, two handed."
             icon="PerkBetterSwords"
             perk_list="1">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item1"
-                  id="mp_battania_bastard_sword" />
+                  id="mp_battania_two_handed_sword" />
         </Effects>
       </Perk>
       <!-- Second perks-->
@@ -5356,7 +5356,7 @@
                    troop="mp_light_cavalry_battania_troop"
                    hero_mount_idle_anim="act_battania_mp_mounted_warrior_mount_idle"
                    troop_mount_idle_anim="act_horse_idle_1"
-                   multiplier="0.4"
+                   multiplier="0.44"
                    cost="140"
                    icon="Cavalry_Light"
                    melee_ai="50"

@@ -1672,7 +1672,7 @@
       <equipment slot="Item0"
                  id="Item.mp_sturgia_heavy_axe" />
       <equipment slot="Item1"
-                 id="Item.mp_leather_round_shield_light" />
+                 id="Item.mp_leather_round_shield" />
       <equipment slot="Head"
                  id="Item.mp_sturgia_heavy_cavalry_helmet" />
       <equipment slot="Body"

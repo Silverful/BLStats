@@ -1469,6 +1469,13 @@
       <Swing damage_type="Cut" damage_factor="3.9" />
     </BladeData>
   </CraftingPiece>
+  <CraftingPiece id="mp_empire_cavalry_menavlion_blade" name="{=*}MP Empire Cavalry Menavlion Blade" tier="2" piece_type="Blade" mesh="spear_blade_18" length="70.4" weight="0.5">
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
+    <BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="2.8" />
+      <Swing damage_type="Cut" damage_factor="3.0" />
+    </BladeData>
+  </CraftingPiece>
   <CraftingPiece id="mp_empire_long_menavlion_blade" name="{=lhjYX0k2}MP Empire Long Menavlion Blade" tier="2" piece_type="Blade" mesh="spear_blade_18" length="70.4" weight="0.3">
     <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
     <BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
@@ -1735,6 +1742,10 @@
     <PieceUsages unavailable_usages="OneHandedPolearm:TwoHandedPolearm_Couchable:Javelin" />
     <BuildData piece_offset="22.9" />
   </CraftingPiece>
+  <CraftingPiece id="mp_empire_cavalry_menavlion_handle" name="{=aPC166Pg}Mp Empire Cavalry Menavlion Handle" tier="2" piece_type="Handle" mesh="spear_handle_5" length="180" weight="2.3" excluded_item_usage_features="long">
+    <PieceUsages unavailable_usages="OneHandedPolearm:TwoHandedPolearm_Couchable:Javelin" />
+    <BuildData piece_offset="22.9" />
+  </CraftingPiece>
   <CraftingPiece id="mp_empire_long_menavlion_handle" name="{=06t15yZM}Mp Empire Long Menavlion Handle" tier="2" piece_type="Handle" mesh="spear_handle_6" length="250" weight="0.6">
     <PieceUsages unavailable_usages="OneHandedPolearm:TwoHandedPolearm_Couchable:Javelin" />
     <BuildData piece_offset="24.9" />
@@ -1772,7 +1783,7 @@
     <BuildData piece_offset="22.9" />
   </CraftingPiece>
   <CraftingPiece id="mp_western_pitchfork_handle" name="{=8Uaowe4p}Mp Short Western Spear Handle" tier="2" piece_type="Handle" mesh="spear_handle_8" length="230" weight="1.2" excluded_item_usage_features="long">
-    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
+    <PieceUsages unavailable_usages="OneHandedPolearm:TwoHandedPolearm_Couchable:Javelin" />
     <BuildData piece_offset="22.9" next_piece_offset="2.0" />
   </CraftingPiece>
   <CraftingPiece id="mp_aserai_spear_handle" name="{=bQcNtpAX}Mp Aserai Spear Handle" tier="2" piece_type="Handle" mesh="spear_handle_4" length="190" weight="1.292" item_holster_pos_shift="0,0,0.10" excluded_item_usage_features="long">
@@ -2153,7 +2164,7 @@
     <PieceUsages unavailable_usages="" />
     <BuildData piece_offset="13.7" />
   </CraftingPiece>
-  <CraftingPiece id="mp_test_mace_handle" name="{=FPIcbms0}MP Test Mace Handle" tier="2" piece_type="Handle" mesh="mace_handle_8" length="62.9" weight="0.5" item_holster_pos_shift="0,0,-0.05">
+  <CraftingPiece id="mp_test_mace_handle" name="{=FPIcbms0}MP Test Mace Handle" tier="2" piece_type="Handle" mesh="mace_handle_8" length="62.9" weight="0.4" item_holster_pos_shift="0,0,-0.05">
     <PieceUsages unavailable_usages="" />
     <BuildData piece_offset="19.3" />
   </CraftingPiece>
