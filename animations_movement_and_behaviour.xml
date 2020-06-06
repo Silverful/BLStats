@@ -4554,7 +4554,6 @@
     <animation id="guard_idle_crossedarms" param1="0.5" duration="43" anim_data_name="anim_guard_idle_crossedarms" source1="1" source2="1290" blend_in_period="0.3" blend_out_period="0.3">
       <flags>
         <flag name="cyclic" />
-        <flag name="ignore_all_collisions" />
         <flag name="priority" value="1" />
         <flag name="randomization_weight" value="15" />		
       </flags>

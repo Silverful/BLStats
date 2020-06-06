@@ -73,7 +73,7 @@
     <!--Also used in managed_combat_paramaters.xml-->
     <native_parameter id="shield_right_stance_defense_arc_multiplier" value="1.05"/>
     <native_parameter id="shield_bash_collision_check_scale_multiplier" value="0.9"/>
-    <native_parameter id="smaller_humanoid_physics_capsule_radius_multiplier" value="0.67"/>
+    <native_parameter id="smaller_humanoid_physics_capsule_radius_multiplier" value="0.95"/>
     <native_parameter id="bigger_humanoid_physics_capsule_radius_multiplier" value="1.5"/>
     <native_parameter id="ranged_target_radius_multiplier" value="2.5"/>
     <native_parameter id="guard_reset_time" value="1.0"/>

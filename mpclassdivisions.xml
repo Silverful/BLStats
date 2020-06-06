@@ -1468,7 +1468,7 @@
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item2"
-                  id="mp_arrows_strong" />
+                  id="mp_arrows_strong_extraammo" />
         </Effects>
       </Perk>
       <!-- Second perks-->
@@ -4117,8 +4117,8 @@
       <Perk game_mode="all"
            name="{=kxNFecm2}Lighter Shield"
            description="{=chOIa3PO}Replaces Shield with a lighter shield, good for faster movement."
-            icon="PerkHardened"
-            perk_list="1">
+           icon="PerkHardened"
+           perk_list="1">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item1"
@@ -4285,7 +4285,7 @@
            name="{=Jd0Kq9lD}Shield"
            description="{=sOARp3Dc}Grants Shield, makes blocking easier, effective against ranged units."
            icon="PerkHardened"
-            perk_list="1">
+           perk_list="1">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item3"
@@ -4744,15 +4744,15 @@
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=W4iKIM2s}Small Shield"
-            description="{=JbODbx5i}Grants Shield, makes blocking easier, effective against ranged units."
+            name="{=W4iKIM2s}Targe"
+            description="{=JbODbx5i}Grants a Small Shield, makes blocking easier, effective against ranged units."
             icon="PerkStrongerShields"
             hero_idle_anim="act_battania_mp_clan_warrior_shieldperk_idle"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item1"
-                  id="mp_small_flat_heater_shield" />
+                  id="mp_battania_targe_b" />
         </Effects>
       </Perk>
     </Perks>
