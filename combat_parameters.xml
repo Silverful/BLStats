@@ -22,6 +22,7 @@
     <def name="shield_vertical_rot_limit" val="0.4" />
     <def name="parry_vertical_rot_limit" val="0.4" />
     <def name="couched_lance_vertical_rot_limit" val="0.48" />
+    <def name="brace_vertical_rot_limit" val="0.2" />
 
     <!-- rider rotation limits -->
     <def name="fist_rider_rot_limit_left" val="60.0" />
@@ -47,8 +48,8 @@
     <def name="thrust_rider_rot_limit_left" val="120" />
     <def name="thrust_rider_rot_limit_right" val="90" />
     <def name="couched_lance_rider_look_down_limit" val="10" />
-    <def name="couched_lance_rider_rot_limit_left" val="45" />
-    <def name="couched_lance_rider_rot_limit_right" val="35" />
+    <def name="couched_lance_rider_rot_limit_left" val="48" />
+    <def name="couched_lance_rider_rot_limit_right" val="20" />
 
     <def name="bow_rider_look_down_limit" val="-25" />
     <def name="bow_rider_rot_limit_left" val="170" />
@@ -86,7 +87,7 @@
     <def name="right_min_polearm_rider_rot_limit_left" val="100" />
     <def name="right_min_polearm_rider_rot_limit_right" val="100" />
 
-    <def name="couched_lance_min_rider_rot_limit_left" val="30" />
+    <def name="couched_lance_min_rider_rot_limit_left" val="43" />
     <def name="couched_lance_min_rider_rot_limit_right" val="0" />
 
     <def name="bow_rider_min_rot_limit_left" val="15" />
@@ -119,8 +120,8 @@
     <def name="crossbow_ladder_rot_limit_right" val="57" /> <!-- not set yet -->
 
     <!-- collision check pencentages -->
-    <def name="human_kick_start_p" val="0.5" />
-    <def name="human_kick_end_p" val="0.72" />
+    <!-- <def name="human_kick_start_p" val="0.5" /> UNSUED-->
+    <!-- <def name="human_kick_end_p" val="0.68" /> UNSUED -->
 
     <!-- cooldowns -->
     <def name="kick_cooldown" val="1.7" />
@@ -395,7 +396,7 @@
                       right_rider_rot_limit="downswing_rider_rot_limit_right" right_rider_min_rot_limit="down_and_upperstab_min_rider_rot_limit_right"
                       left_ladder_rot_limit="downswing_ladder_rot_limit_left" right_ladder_rot_limit="downswing_ladder_rot_limit_right" />-->
 
-    <combat_parameter id="onehanded_left"     collision_check_starting_percent="0.29" collision_check_ending_percent="0.52"
+    <combat_parameter id="onehanded_left"     collision_check_starting_percent="0.294" collision_check_ending_percent="0.52"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="left_swing_rider_rot_limit_left" left_rider_min_rot_limit="left_min_rider_rot_limit_left"
                       right_rider_rot_limit="left_swing_rider_rot_limit_right" right_rider_min_rot_limit="left_min_rider_rot_limit_right"
@@ -403,7 +404,7 @@
                       left_ladder_rot_limit="left_swing_ladder_rot_limit_left" right_ladder_rot_limit="left_swing_ladder_rot_limit_right"
                       hit_bone_index="27"/>
 
-    <combat_parameter id="onehanded_left_balanced"     collision_check_starting_percent="0.30" collision_check_ending_percent="0.51"
+    <combat_parameter id="onehanded_left_balanced"     collision_check_starting_percent="0.304" collision_check_ending_percent="0.51"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="left_swing_rider_rot_limit_left" left_rider_min_rot_limit="left_min_rider_rot_limit_left"
                       right_rider_rot_limit="left_swing_rider_rot_limit_right" right_rider_min_rot_limit="left_min_rider_rot_limit_right"
@@ -411,14 +412,14 @@
                       left_ladder_rot_limit="left_swing_ladder_rot_limit_left" right_ladder_rot_limit="left_swing_ladder_rot_limit_right"
                       hit_bone_index="27"/>
 
-    <combat_parameter id="onehanded_left_leftstance"     collision_check_starting_percent="0.36"  collision_check_ending_percent="0.57"
+    <combat_parameter id="onehanded_left_leftstance"     collision_check_starting_percent="0.366"  collision_check_ending_percent="0.57"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="left_swing_rider_rot_limit_left" left_rider_min_rot_limit="left_min_rider_rot_limit_left"
                       right_rider_rot_limit="left_swing_rider_rot_limit_right" right_rider_min_rot_limit="left_min_rider_rot_limit_right"
                       rider_look_down_limit="left_swing_rider_look_down_limit"
                       left_ladder_rot_limit="left_swing_ladder_rot_limit_left" right_ladder_rot_limit="left_swing_ladder_rot_limit_right"
                       hit_bone_index="27"/>
-    <combat_parameter id="onehanded_left_leftstance_balanced"     collision_check_starting_percent="0.36"  collision_check_ending_percent="0.57"
+    <combat_parameter id="onehanded_left_leftstance_balanced"     collision_check_starting_percent="0.366"  collision_check_ending_percent="0.57"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="left_swing_rider_rot_limit_left" left_rider_min_rot_limit="left_min_rider_rot_limit_left"
                       right_rider_rot_limit="left_swing_rider_rot_limit_right" right_rider_min_rot_limit="left_min_rider_rot_limit_right"
@@ -434,14 +435,14 @@
                       left_ladder_rot_limit="left_swing_ladder_rot_limit_left" right_ladder_rot_limit="left_swing_ladder_rot_limit_right"
                       hit_bone_index="27"/>
 
-    <combat_parameter id="onehanded_right"    collision_check_starting_percent="0.33"  collision_check_ending_percent="0.56"
+    <combat_parameter id="onehanded_right"    collision_check_starting_percent="0.333"  collision_check_ending_percent="0.56"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
                       right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
                       rider_look_down_limit="right_swing_rider_look_down_limit"
                       left_ladder_rot_limit="right_swing_ladder_rot_limit_left" right_ladder_rot_limit="right_swing_ladder_rot_limit_right"
                       hit_bone_index="27"/>
-    <combat_parameter id="onehanded_right_balanced"    collision_check_starting_percent="0.36"  collision_check_ending_percent="0.56"
+    <combat_parameter id="onehanded_right_balanced"    collision_check_starting_percent="0.363"  collision_check_ending_percent="0.56"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
                       right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
@@ -449,14 +450,14 @@
                       left_ladder_rot_limit="right_swing_ladder_rot_limit_left" right_ladder_rot_limit="right_swing_ladder_rot_limit_right"
                       hit_bone_index="27"/>
 
-    <combat_parameter id="onehanded_right_leftstance"    collision_check_starting_percent="0.29"  collision_check_ending_percent="0.53"
+    <combat_parameter id="onehanded_right_leftstance"    collision_check_starting_percent="0.298"  collision_check_ending_percent="0.53"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
                       right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
                       rider_look_down_limit="right_swing_rider_look_down_limit"
                       left_ladder_rot_limit="right_swing_ladder_rot_limit_left" right_ladder_rot_limit="right_swing_ladder_rot_limit_right"
                       hit_bone_index="27"/>
-    <combat_parameter id="onehanded_right_leftstance_balanced"    collision_check_starting_percent="0.29"  collision_check_ending_percent="0.53"
+    <combat_parameter id="onehanded_right_leftstance_balanced"    collision_check_starting_percent="0.298"  collision_check_ending_percent="0.53"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
                       right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
@@ -503,7 +504,7 @@
 					  hit_bone_index="27"/>
     <!--TODO tweak collision check percentages-->
 
-    <combat_parameter id="onehanded_lance_thrust"        collision_check_starting_percent="0.1" collision_damage_starting_percent="0.15" collision_check_ending_percent="0.56" weapon_offset="0,0,0.0"
+    <combat_parameter id="onehanded_lance_thrust"        collision_check_starting_percent="0.15" collision_damage_starting_percent="0.25" collision_check_ending_percent="0.56" weapon_offset="0,0,0.0"
                       vertical_rot_limit_multiplier_up="thrust_vertical_rot_limit" vertical_rot_limit_multiplier_down="0.5"
                       left_rider_rot_limit="thrust_rider_rot_limit_left" left_rider_min_rot_limit="thrust_polearm_min_rider_rot_limit_left"
                       right_rider_rot_limit="thrust_rider_rot_limit_right" right_rider_min_rot_limit="thrust_polearm_min_rider_rot_limit_right"
@@ -511,7 +512,7 @@
                       left_ladder_rot_limit="thrust_ladder_rot_limit_left" right_ladder_rot_limit="thrust_ladder_rot_limit_right"
                       hit_bone_index="27"/>
 
-    <combat_parameter id="onehanded_lance_upperthrust"        collision_check_starting_percent="0.1" collision_damage_starting_percent="0.15" collision_check_ending_percent="0.57" weapon_offset="0,0,0.0"
+    <combat_parameter id="onehanded_lance_upperthrust"        collision_check_starting_percent="0.15" collision_damage_starting_percent="0.25" collision_check_ending_percent="0.57" weapon_offset="0,0,0.0"
                       vertical_rot_limit_multiplier_up="thrust_vertical_rot_limit" vertical_rot_limit_multiplier_down="0.7"
                       left_rider_rot_limit="thrust_rider_rot_limit_left" left_rider_min_rot_limit="down_and_upperstab_min_rider_rot_limit_left"
                       right_rider_rot_limit="thrust_rider_rot_limit_right" right_rider_min_rot_limit="down_and_upperstab_min_rider_rot_limit_right"
@@ -575,7 +576,7 @@
                       left_ladder_rot_limit="thrust_ladder_rot_limit_left" right_ladder_rot_limit="thrust_ladder_rot_limit_right"
                       hit_bone_index="27"/> -->
 
-    <combat_parameter id="twohanded_left"             collision_check_starting_percent="0.34"  collision_check_ending_percent="0.50"
+    <combat_parameter id="twohanded_left"             collision_check_starting_percent="0.345"  collision_check_ending_percent="0.50"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="left_swing_rider_rot_limit_left" left_rider_min_rot_limit="left_min_rider_rot_limit_left"
                       right_rider_rot_limit="left_swing_rider_rot_limit_right" right_rider_min_rot_limit="left_min_rider_rot_limit_right"
@@ -583,7 +584,7 @@
                       left_ladder_rot_limit="left_swing_ladder_rot_limit_left" right_ladder_rot_limit="left_swing_ladder_rot_limit_right"
                       hit_bone_index="27"/>
 
-	<combat_parameter id="twohanded_left_balanced"             collision_check_starting_percent="0.34"  collision_check_ending_percent="0.50"
+	<combat_parameter id="twohanded_left_balanced"             collision_check_starting_percent="0.345"  collision_check_ending_percent="0.50"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="left_swing_rider_rot_limit_left" left_rider_min_rot_limit="left_min_rider_rot_limit_left"
                       right_rider_rot_limit="left_swing_rider_rot_limit_right" right_rider_min_rot_limit="left_min_rider_rot_limit_right"
@@ -598,7 +599,7 @@
                       rider_look_down_limit="left_swing_rider_look_down_limit"
                       left_ladder_rot_limit="left_swing_ladder_rot_limit_left" right_ladder_rot_limit="left_swing_ladder_rot_limit_right" />-->
 
-    <combat_parameter id="twohanded_right"            collision_check_starting_percent="0.39"  collision_check_ending_percent="0.52"
+    <combat_parameter id="twohanded_right"            collision_check_starting_percent="0.393"  collision_check_ending_percent="0.52"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
                       right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
@@ -606,7 +607,7 @@
                       left_ladder_rot_limit="right_swing_ladder_rot_limit_left" right_ladder_rot_limit="right_swing_ladder_rot_limit_right"
                       hit_bone_index="27"/>
 
-    <combat_parameter id="twohanded_right_balanced"            collision_check_starting_percent="0.36"  collision_check_ending_percent="0.57"
+    <combat_parameter id="twohanded_right_balanced"            collision_check_starting_percent="0.393"  collision_check_ending_percent="0.57"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
                       right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
@@ -622,7 +623,7 @@
                       left_ladder_rot_limit="right_swing_ladder_rot_limit_left" right_ladder_rot_limit="right_swing_ladder_rot_limit_right" />-->
 
 
-    <combat_parameter id="twohanded_left_left_stance"             collision_check_starting_percent="0.43"  collision_check_ending_percent="0.53"
+    <combat_parameter id="twohanded_left_left_stance"             collision_check_starting_percent="0.387"  collision_check_ending_percent="0.53"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="left_swing_rider_rot_limit_left" left_rider_min_rot_limit="left_min_rider_rot_limit_left"
                       right_rider_rot_limit="left_swing_rider_rot_limit_right" right_rider_min_rot_limit="left_min_rider_rot_limit_right"
@@ -630,7 +631,7 @@
                       left_ladder_rot_limit="left_swing_ladder_rot_limit_left" right_ladder_rot_limit="left_swing_ladder_rot_limit_right"
                       hit_bone_index="27"/>
 
-    <combat_parameter id="twohanded_left_balanced_left_stance"             collision_check_starting_percent="0.38"  collision_check_ending_percent="0.58"
+    <combat_parameter id="twohanded_left_balanced_left_stance"             collision_check_starting_percent="0.387"  collision_check_ending_percent="0.58"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="left_swing_rider_rot_limit_left" left_rider_min_rot_limit="left_min_rider_rot_limit_left"
                       right_rider_rot_limit="left_swing_rider_rot_limit_right" right_rider_min_rot_limit="left_min_rider_rot_limit_right"
@@ -653,7 +654,7 @@
                       rider_look_down_limit="left_swing_rider_look_down_limit"
                       left_ladder_rot_limit="left_swing_ladder_rot_limit_left" right_ladder_rot_limit="left_swing_ladder_rot_limit_right" />-->
 
-    <combat_parameter id="twohanded_right_left_stance_balanced"            collision_check_starting_percent="0.33"  collision_check_ending_percent="0.57"
+    <combat_parameter id="twohanded_right_left_stance_balanced"            collision_check_starting_percent="0.341"  collision_check_ending_percent="0.57"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
                       right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
@@ -661,7 +662,7 @@
                       left_ladder_rot_limit="right_swing_ladder_rot_limit_left" right_ladder_rot_limit="right_swing_ladder_rot_limit_right"
                       hit_bone_index="27"/>
 
-    <combat_parameter id="twohanded_right_left_stance"            collision_check_starting_percent="0.32"  collision_check_ending_percent="0.50"
+    <combat_parameter id="twohanded_right_left_stance"            collision_check_starting_percent="0.331"  collision_check_ending_percent="0.50"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
                       right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
@@ -722,7 +723,7 @@
 
 -->
 
-    <combat_parameter id="polearm_right_balanced"        collision_check_starting_percent="0.35"  collision_check_ending_percent="0.65" weapon_offset="0,0,-0.3"
+    <combat_parameter id="polearm_right_balanced"        collision_check_starting_percent="0.32"  collision_check_ending_percent="0.65" weapon_offset="0,0,-0.3"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
                       right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
@@ -730,24 +731,7 @@
                       left_ladder_rot_limit="right_swing_ladder_rot_limit_left" right_ladder_rot_limit="right_swing_ladder_rot_limit_right"
                       hit_bone_index="27"/>
 
-    <combat_parameter id="polearm_right_unbalanced"        collision_check_starting_percent="0.34"  collision_check_ending_percent="0.60" weapon_offset="0,0,-0.3"
-                      vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
-                      left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
-                      right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
-                      rider_look_down_limit="right_swing_rider_look_down_limit"
-                      left_ladder_rot_limit="right_swing_ladder_rot_limit_left" right_ladder_rot_limit="right_swing_ladder_rot_limit_right"
-                      hit_bone_index="27"/>
-
-
-    <combat_parameter id="polearm_left_balanced"        collision_check_starting_percent="0.30"  collision_check_ending_percent="0.65" weapon_offset="0,0,0.35"
-                      vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
-                      left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
-                      right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
-                      rider_look_down_limit="right_swing_rider_look_down_limit"
-                      left_ladder_rot_limit="right_swing_ladder_rot_limit_left" right_ladder_rot_limit="right_swing_ladder_rot_limit_right"
-                      hit_bone_index="27"/>
-
-    <combat_parameter id="polearm_left_unbalanced"        collision_check_starting_percent="0.30"  collision_check_ending_percent="0.58" weapon_offset="0,0,0.35"
+    <combat_parameter id="polearm_right_unbalanced"        collision_check_starting_percent="0.31" collision_damage_starting_percent="0.32" collision_check_ending_percent="0.60" weapon_offset="0,0,-0.3"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
                       right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
@@ -756,7 +740,7 @@
                       hit_bone_index="27"/>
 
 
-    <combat_parameter id="polearm_right_balanced_left"        collision_check_starting_percent="0.30"  collision_check_ending_percent="0.60" weapon_offset="0,0,-0.3"
+    <combat_parameter id="polearm_left_balanced"        collision_check_starting_percent="0.28" collision_damage_starting_percent="0.29" collision_check_ending_percent="0.65" weapon_offset="0,0,0.35"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
                       right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
@@ -764,24 +748,7 @@
                       left_ladder_rot_limit="right_swing_ladder_rot_limit_left" right_ladder_rot_limit="right_swing_ladder_rot_limit_right"
                       hit_bone_index="27"/>
 
-    <combat_parameter id="polearm_right_unbalanced_left"        collision_check_starting_percent="0.30"  collision_check_ending_percent="0.58" weapon_offset="0,0,-0.3"
-                      vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
-                      left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
-                      right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
-                      rider_look_down_limit="right_swing_rider_look_down_limit"
-                      left_ladder_rot_limit="right_swing_ladder_rot_limit_left" right_ladder_rot_limit="right_swing_ladder_rot_limit_right"
-                      hit_bone_index="27"/>
-
-
-    <combat_parameter id="polearm_left_balanced_left"        collision_check_starting_percent="0.30"  collision_check_ending_percent="0.72" weapon_offset="0,0,0.35"
-                      vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
-                      left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
-                      right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
-                      rider_look_down_limit="right_swing_rider_look_down_limit"
-                      left_ladder_rot_limit="right_swing_ladder_rot_limit_left" right_ladder_rot_limit="right_swing_ladder_rot_limit_right"
-                      hit_bone_index="27"/>
-
-    <combat_parameter id="polearm_left_unbalanced_left"        collision_check_starting_percent="0.35"  collision_check_ending_percent="0.57" weapon_offset="0,0,0.35"
+    <combat_parameter id="polearm_left_unbalanced"        collision_check_starting_percent="0.28" collision_damage_starting_percent="0.29"  collision_check_ending_percent="0.58" weapon_offset="0,0,0.35"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
                       right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
@@ -790,9 +757,43 @@
                       hit_bone_index="27"/>
 
 
+    <combat_parameter id="polearm_right_balanced_left"       collision_check_starting_percent="0.28" collision_damage_starting_percent="0.284"  collision_check_ending_percent="0.60" weapon_offset="0,0,-0.3"
+                      vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
+                      left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
+                      right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
+                      rider_look_down_limit="right_swing_rider_look_down_limit"
+                      left_ladder_rot_limit="right_swing_ladder_rot_limit_left" right_ladder_rot_limit="right_swing_ladder_rot_limit_right"
+                      hit_bone_index="27"/>
+
+    <combat_parameter id="polearm_right_unbalanced_left"        collision_check_starting_percent="0.28" collision_damage_starting_percent="0.284"  collision_check_ending_percent="0.58" weapon_offset="0,0,-0.3"
+                      vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
+                      left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
+                      right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
+                      rider_look_down_limit="right_swing_rider_look_down_limit"
+                      left_ladder_rot_limit="right_swing_ladder_rot_limit_left" right_ladder_rot_limit="right_swing_ladder_rot_limit_right"
+                      hit_bone_index="27"/>
 
 
-    <combat_parameter id="polearm_left"         collision_check_starting_percent="0.34"  collision_check_ending_percent="0.48" weapon_offset="0,0,0.1"
+    <combat_parameter id="polearm_left_balanced_left"        collision_check_starting_percent="0.28" collision_damage_starting_percent="0.29"  collision_check_ending_percent="0.72" weapon_offset="0,0,0.35"
+                      vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
+                      left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
+                      right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
+                      rider_look_down_limit="right_swing_rider_look_down_limit"
+                      left_ladder_rot_limit="right_swing_ladder_rot_limit_left" right_ladder_rot_limit="right_swing_ladder_rot_limit_right"
+                      hit_bone_index="27"/>
+
+    <combat_parameter id="polearm_left_unbalanced_left"        collision_check_starting_percent="0.33" collision_damage_starting_percent="0.34"  collision_check_ending_percent="0.57" weapon_offset="0,0,0.35"
+                      vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
+                      left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
+                      right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
+                      rider_look_down_limit="right_swing_rider_look_down_limit"
+                      left_ladder_rot_limit="right_swing_ladder_rot_limit_left" right_ladder_rot_limit="right_swing_ladder_rot_limit_right"
+                      hit_bone_index="27"/>
+
+
+
+
+    <combat_parameter id="polearm_left"         collision_check_starting_percent="0.35"  collision_check_ending_percent="0.48" weapon_offset="0,0,0.1"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="left_swing_rider_rot_limit_left" left_rider_min_rot_limit="left_min_rider_rot_limit_left"
                       right_rider_rot_limit="left_swing_rider_rot_limit_right" right_rider_min_rot_limit="left_min_rider_rot_limit_right"
@@ -801,7 +802,7 @@
                       hit_bone_index="27"/>
 
 
-    <combat_parameter id="polearm_right"        collision_check_starting_percent="0.34"  collision_check_ending_percent="0.48" weapon_offset="0,0,-0.3"
+    <combat_parameter id="polearm_right"        collision_check_starting_percent="0.35"  collision_check_ending_percent="0.48" weapon_offset="0,0,-0.3"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
                       right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"
@@ -868,7 +869,7 @@
                       rider_look_down_limit="thrust_rider_look_down_limit"
                       left_ladder_rot_limit="thrust_ladder_rot_limit_left" right_ladder_rot_limit="thrust_ladder_rot_limit_right" />-->
 
-    <combat_parameter id="polearm_thrust_heavy" collision_check_starting_percent="0.27" collision_damage_starting_percent="0.28" collision_check_ending_percent="0.51" weapon_offset="0,0,0.2"
+    <combat_parameter id="polearm_thrust_heavy" collision_check_starting_percent="0.27" collision_damage_starting_percent="0.29" collision_check_ending_percent="0.51" weapon_offset="0,0,0.2"
                       vertical_rot_limit_multiplier_up="thrust_vertical_rot_limit" vertical_rot_limit_multiplier_down="thrust_vertical_rot_limit"
                       left_rider_rot_limit="thrust_rider_rot_limit_left" left_rider_min_rot_limit="down_and_upperstab_min_rider_rot_limit_left"
                       right_rider_rot_limit="thrust_rider_rot_limit_right" right_rider_min_rot_limit="down_and_upperstab_min_rider_rot_limit_right"
@@ -876,7 +877,7 @@
                       left_ladder_rot_limit="thrust_ladder_rot_limit_left" right_ladder_rot_limit="thrust_ladder_rot_limit_right"
                       hit_bone_index="27"/>
 
-    <combat_parameter id="polearm_thrust_left" collision_check_starting_percent="0.27" collision_damage_starting_percent="0.28" collision_check_ending_percent="0.51" weapon_offset="0,0,0.1"
+    <combat_parameter id="polearm_thrust_left" collision_check_starting_percent="0.27" collision_damage_starting_percent="0.29" collision_check_ending_percent="0.51" weapon_offset="0,0,0.1"
                       vertical_rot_limit_multiplier_up="thrust_vertical_rot_limit" vertical_rot_limit_multiplier_down="thrust_vertical_rot_limit"
                       left_rider_rot_limit="thrust_rider_rot_limit_left" left_rider_min_rot_limit="down_and_upperstab_min_rider_rot_limit_left"
                       right_rider_rot_limit="thrust_rider_rot_limit_right" right_rider_min_rot_limit="down_and_upperstab_min_rider_rot_limit_right"
@@ -885,7 +886,7 @@
                       hit_bone_index="27"/>
 
 
-   <combat_parameter id="polearm_upperthrust_left" collision_check_starting_percent="0.27" collision_damage_starting_percent="0.28" collision_check_ending_percent="0.51" weapon_offset="0,0,0.1"
+   <combat_parameter id="polearm_upperthrust_left" collision_check_starting_percent="0.27" collision_damage_starting_percent="0.29" collision_check_ending_percent="0.51" weapon_offset="0,0,0.1"
                       vertical_rot_limit_multiplier_up="thrust_vertical_rot_limit" vertical_rot_limit_multiplier_down="thrust_vertical_rot_limit"
                       left_rider_rot_limit="thrust_rider_rot_limit_left" left_rider_min_rot_limit="down_and_upperstab_min_rider_rot_limit_left"
                       right_rider_rot_limit="thrust_rider_rot_limit_right" right_rider_min_rot_limit="down_and_upperstab_min_rider_rot_limit_right"
@@ -893,7 +894,7 @@
                       left_ladder_rot_limit="thrust_ladder_rot_limit_left" right_ladder_rot_limit="thrust_ladder_rot_limit_right"
                      hit_bone_index="27"/>
 
-   <combat_parameter id="polearm_upperthrust" collision_check_starting_percent="0.27" collision_damage_starting_percent="0.28" collision_check_ending_percent="0.51" weapon_offset="0,0,0.2"
+   <combat_parameter id="polearm_upperthrust" collision_check_starting_percent="0.27" collision_damage_starting_percent="0.29" collision_check_ending_percent="0.51" weapon_offset="0,0,0.2"
                       vertical_rot_limit_multiplier_up="thrust_vertical_rot_limit" vertical_rot_limit_multiplier_down="thrust_vertical_rot_limit"
                       left_rider_rot_limit="thrust_rider_rot_limit_left" left_rider_min_rot_limit="down_and_upperstab_min_rider_rot_limit_left"
                       right_rider_rot_limit="thrust_rider_rot_limit_right" right_rider_min_rot_limit="down_and_upperstab_min_rider_rot_limit_right"
@@ -1165,7 +1166,10 @@
                       collision_check_starting_percent="0.0" collision_check_ending_percent="1"
                       hit_bone_index="27"/>
 
-    <combat_parameter id="quarter_staff"        collision_check_starting_percent="0.1"  collision_check_ending_percent="0.7" weapon_offset="0,0,0.0"
+    <combat_parameter id="polearm_brace" vertical_rot_limit_multiplier_up="brace_vertical_rot_limit" vertical_rot_limit_multiplier_down="brace_vertical_rot_limit"
+                      collision_check_starting_percent="0.0" collision_check_ending_percent="1" hit_bone_index="27" weapon_offset="0,0,0.7"/>
+
+    <combat_parameter id="quarter_staff" collision_check_starting_percent="0.1"  collision_check_ending_percent="0.7" weapon_offset="0,0,0.0"
                       vertical_rot_limit_multiplier_up="swing_vertical_rot_limit" vertical_rot_limit_multiplier_down="swing_vertical_rot_limit"
                       left_rider_rot_limit="right_swing_rider_rot_limit_left" left_rider_min_rot_limit="right_min_rider_rot_limit_left"
                       right_rider_rot_limit="right_swing_rider_rot_limit_right" right_rider_min_rot_limit="right_min_rider_rot_limit_right"

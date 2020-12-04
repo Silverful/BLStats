@@ -14,12 +14,12 @@
                    hero_idle_anim="act_vlandia_mp_peasant_levy_idle"
                    troop_idle_anim="act_idle_unarmed_1"
                    multiplier="0.92"
-                   cost="90"
+                   cost="80"
                    icon="Infantry_Light"
                    melee_ai="30"
                    ranged_ai="30"
                    armor="5"
-                   movement_speed="0.78"
+                   movement_speed="0.81"
                    combat_movement_speed="0.8"
                    acceleration="2.7">
     <Perks>
@@ -176,22 +176,25 @@
                    icon="Special_Axeman"
                    melee_ai="50"
                    ranged_ai="50"
-                   armor="10"
-                   movement_speed="0.79"
-                   combat_movement_speed="0.9"
+                   armor="12"
+                   movement_speed="0.81"
+                   combat_movement_speed="1"
                    acceleration="2.6"
                    hitpoints="110">
     <Perks>
       <!--First perks-->
       <Perk game_mode="all"
-            name="{=bzCoIgk7}Military Bill"
-            description="{=1dTipfgq}Replaces Voulge with Military Bill, a polearm."
-            icon="PerkBetterAxes"
+            name="{=C9ufRSsL}Sword and Shield"
+            description="{=FfpqIuV8}Replaces Voulge with a Sword and Shield combination. Grants versatility and protection."
+            icon="PerkLargerShields"
             perk_list="1">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item0"
-                  id="mp_vlandian_halberd_lol" />
+                  id="mp_vlandian_short_sword" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Item1"
+                  id="mp_western_kite_shield" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
@@ -290,14 +293,14 @@
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=mcXoarZq}Franceskas"
+            name="{=OPcPYoHu}Franceskas"
             description="{=D9XZcdid}Grants Franceskas, provides ranged damage, effective against shields, low in quantity."
             icon="PerkThrowingAxes"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item2"
-                  id="mp_vlandian_throwing_axe_extra" />
+                  slot="Item3"
+                  id="mp_vlandian_throwing_axe" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
@@ -307,7 +310,7 @@
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item2"
+                  slot="Item3"
                   id="mp_javelin" />
         </Effects>
       </Perk>
@@ -319,7 +322,7 @@
                    hero_idle_anim="act_vlandia_mp_sergeant_idle"
                    troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
                    multiplier="0.60"
-                   cost="140"
+                   cost="160"
                    icon="Infantry_Heavy"
                    melee_ai="50"
                    ranged_ai="50"
@@ -443,36 +446,36 @@
       </Perk>
       <!-- Second perks-->
       <Perk game_mode="all"
-            name="{=YoNYyLba}Spear"
+            name="{=dQEa2hZa}Long Spear"
             description="{=Oweratvx}Grants Spear, effective against cavalry and crowd control."
             icon="PerkSpears"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item2"
-                  id="mp_western_spear" />
+                  id="mp_western_long_spear" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=mcXoarZq}Franceskas"
+            name="{=i7OWTiQc}Stronger Shield"
+            description="{=ZZ9p2E2g}Replaces Shield with a stronger shield, increases durability."
+            icon="PerkHardened"
+            perk_list="2">
+        <Effects>
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Item1"
+                  id="mp_tall_heater_shield" />
+        </Effects>
+      </Perk>
+      <Perk game_mode="all"
+            name="{=OPcPYoHu}Franceskas"
             description="{=D9XZcdid}Grants Franceskas, provides ranged damage, effective against shields, low in quantity."
             icon="PerkThrowingAxes"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item2"
-                  id="mp_vlandian_throwing_axe_extra" />
-        </Effects>
-      </Perk>
-      <Perk game_mode="all"
-            name="{=PF7sPCYq}Javelins"
-            description="{=ZtKJgiRv}Grants Javelins, good for harrassing, can be used in melee."
-            icon="PerkJavelins"
-            perk_list="2">
-        <Effects>
-          <Effect type="PerkAlternativeEquipment"
-                  slot="Item2"
-                  id="mp_javelin" />
+                  id="mp_vlandian_throwing_axe" />
         </Effects>
       </Perk>
     </Perks>
@@ -568,7 +571,7 @@
                    hero_idle_anim="act_vlandia_mp_sharpshooter_idle"
                    troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
                    multiplier="0.35"
-                   cost="140"
+                   cost="160"
                    icon="Crossbowman_Heavy"
                    melee_ai="50"
                    ranged_ai="70"
@@ -737,7 +740,7 @@
                    melee_ai="50"
                    ranged_ai="50"
                    armor="19"
-                   movement_speed="0.73"
+                   movement_speed="0.77"
                    combat_movement_speed="0.6"
                    acceleration="3.2">
     <Perks>
@@ -881,7 +884,7 @@
                    hero_mount_idle_anim="act_vlandia_mp_knight_mount_idle"
                    troop_mount_idle_anim="act_horse_idle_1"
                    multiplier="0.25"
-                   cost="190"
+                   cost="200"
                    icon="Cavalry_Heavy"
                    melee_ai="70"
                    ranged_ai="50"
@@ -1005,19 +1008,19 @@
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=PF7sPCYq}Javelins"
-            description="{=vjvklXQ3}Grants Javelins, good for harrassing, can be used in melee."
-            icon="PerkJavelins"
+            name="{=eyCVSK43}Heavy Lance"
+            description="{=a4Y00Bxz}Grants Lance, longer than spears but slower, couchable."
+            icon="PerkLongerLances"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item3"
-                  id="mp_javelin" />
+                  slot="Item0"
+                  id="mp_vlandian_heavy_lance" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
             name="{=ZJweh5Oh}Bastard Axe"
-            description="{=SpTtirzT}(TEMPORARY)Grants Axe, effective against shields, two handed."
+            description="{=SpTtirzT}Grants Axe, effective against shields, two handed."
             icon="PerkBetterAxes"
             perk_list="2">
         <Effects>
@@ -1041,7 +1044,7 @@
                    ranged_ai="40"
                    armor="10"
                    movement_speed="0.8"
-                   combat_movement_speed="0.8"
+                   combat_movement_speed="0.81"
                    acceleration="2.8">
     <Perks>
       <!-- First perks-->
@@ -1125,10 +1128,10 @@
                    melee_ai="50"
                    ranged_ai="50"
                    armor="7"
-                   movement_speed="0.80"
-                   combat_movement_speed="0.9"
+                   movement_speed="0.81"
+                   combat_movement_speed="1"
                    acceleration="2.40"
-                   hitpoints="100">
+                   hitpoints="110">
     <Perks>
       <!-- First perks-->
       <Perk game_mode="all"
@@ -1221,19 +1224,16 @@
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item1"
+                  slot="Item2"
                   id="mp_javelin" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=cMsadGUb}Pilas"
-            description="{=4ckL9lJ8}Grants Pilas, longer, good for harrassing, can be used in melee, low in quantity."
+            name="{=rkqaCud5}Pilum"
+            description="{=r1Jp5c72}Grants a Pilum, longer, good for harrassing, can be used in melee."
             icon="PerkPilums"
             perk_list="2">
         <Effects>
-          <Effect type="PerkAlternativeEquipment"
-                  slot="Item1"
-                  id="mp_pilum" />
           <Effect type="PerkAlternativeEquipment"
                   slot="Item2"
                   id="mp_pilum" />
@@ -1246,7 +1246,7 @@
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item1"
+                  slot="Item2"
                   id="mp_empire_spatha" />
         </Effects>
       </Perk>
@@ -1258,12 +1258,12 @@
                    hero_idle_anim="act_empire_mp_legionary_idle"
                    troop_idle_anim="act_idle_1h_with_shield_1"
                    multiplier="0.60"
-                   cost="140"
+                   cost="160"
                    icon="Infantry_Heavy"
                    melee_ai="50"
                    ranged_ai="50"
                    armor="41"
-                   movement_speed="0.76"
+                   movement_speed="0.77"
                    combat_movement_speed="0.7"
                    acceleration="3.0">
     <Perks>
@@ -1279,14 +1279,14 @@
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=kxNFecm2}Lighter Shield"
-            description="{=chOIa3PO}Replaces Shield with a lighter shield, good for faster movement."
-            icon="PerkHardened"
+            name="{=uNyHSwaL}Heavy Axe"
+            description="{=gQtU8qqy}Grants Axe, effective against shields."
+            icon="PerkBetterAxes"
             perk_list="1">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item1"
-                  id="mp_lighter_reinforced_kite_shield" />
+                  slot="Item0"
+                  id="mp_empire_heavy_axe" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
@@ -1381,39 +1381,36 @@
       </Perk>
       <!-- Second perks-->
       <Perk game_mode="all"
-            name="{=YoNYyLba}Spear"
+            name="{=dQEa2hZa}Long Spear"
             description="{=Oweratvx}Grants Spear, effective against cavalry and crowd control."
             icon="PerkSpears"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item3"
-                  id="mp_western_spear" />
+                  id="mp_western_long_spear" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=cMsadGUb}Pilas"
-            description="{=JfnVaE9D}Grants Pilas, good for harrassing, can be used in melee, low in quantity."
+            name="{=rkqaCud5}Pilum"
+            description="{=r1Jp5c72}Grants a Pilum, longer, good for harrassing, can be used in melee."
             icon="PerkPilums"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item3"
                   id="mp_pilum" />
-          <Effect type="PerkAlternativeEquipment"
-                  slot="Item2"
-                  id="mp_pilum" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=uNyHSwaL}Heavy Axe"
-            description="{=gQtU8qqy}Grants Axe, effective against shields."
-            icon="PerkBetterAxes"
+            name="{=i7OWTiQc}Stronger Shield"
+            description="{=ZZ9p2E2g}Replaces Shield with a stronger shield, increases durability."
+            icon="PerkHardened"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item3"
-                  id="mp_empire_heavy_axe" />
+                  slot="Item1"
+                  id="mp_stronger_reinforced_kite_shield" />
         </Effects>
       </Perk>
     </Perks>
@@ -1513,7 +1510,7 @@
                    hero_idle_anim="act_empire_mp_palatine_guard_idle"
                    troop_idle_anim="act_idle_bow_1"
                    multiplier="0.40"
-                   cost="150"
+                   cost="160"
                    icon="Archer_Heavy"
                    melee_ai="50"
                    ranged_ai="70"
@@ -1686,7 +1683,7 @@
                    melee_ai="50"
                    ranged_ai="50"
                    armor="16"
-                   movement_speed="0.73"
+                   movement_speed="0.76"
                    combat_movement_speed="0.7"
                    acceleration="3.2">
     <Perks>
@@ -1806,7 +1803,7 @@
       <!-- Second perks-->
       <Perk game_mode="all"
             name="{=7LmUe8fQ}Menavlion"
-            description="{=*}Grants Cavalry version of Menavlion."
+            description="{=QR4bNj8H}Grants Cavalry version of Menavlion."
             icon="PerkSpears"
             perk_list="2">
         <Effects>
@@ -2091,12 +2088,12 @@
                    hero_idle_anim="act_khuzait_mp_spear_infantry_idle"
                    troop_idle_anim="act_idle_1h_with_shield_1"
                    multiplier="0.65"
-                   cost="120"
+                   cost="130"
                    icon="Infantry_Heavy"
                    melee_ai="50"
                    ranged_ai="50"
                    armor="23"
-                   movement_speed="0.76"
+                   movement_speed="0.77"
                    combat_movement_speed="0.8"
                    acceleration="2.9">
     <Perks>
@@ -2120,7 +2117,7 @@
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item1"
-                  id="mp_stronger_eastern_wicker_shield" />
+                  id="mp_footmans_wicker_shield" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
@@ -2229,14 +2226,11 @@
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=5ydbUsFh}Throwing Spears"
-            description="{=d8oFKRxa}Grants Throwing Spears, longer than spears, throwable, can be used in melee."
+            name="{=y4YWp1f1}Throwing Spear"
+            description="{=qENFMPqP}Grants Throwing Spear, longer than spears, throwable, can be used in melee."
             icon="PerkMoreThrowingSpears"
             perk_list="2">
         <Effects>
-          <Effect type="PerkAlternativeEquipment"
-                  slot="Item2"
-                  id="mp_khuzait_throwing_spear" />
           <Effect type="PerkAlternativeEquipment"
                   slot="Item3"
                   id="mp_khuzait_throwing_spear" />
@@ -2306,14 +2300,14 @@
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=YjKfKduC}Faster Arrows"
-            description="{=n497RC1p}(TEMPORARY)Grants faster arrows."
+            name="{=5pLEUc4t}Strong Arrows"
+            description="{=7lb73utt}Grants Strong Arrows, deals more damage."
             icon="PerkWellSupplied"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item1"
-                  id="mp_arrows_fast_extra" />
+                  id="mp_arrows_strong_extraammo" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
@@ -2425,7 +2419,7 @@
                    melee_ai="50"
                    ranged_ai="50"
                    armor="14"
-                   movement_speed="0.74"
+                   movement_speed="0.76"
                    combat_movement_speed="0.7"
                    acceleration="3.1">
     <Perks>
@@ -2561,7 +2555,7 @@
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item2"
-                  id="mp_arrows_steppe_extra" />
+                  id="mp_arrows_steppe_extra_mounted" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
@@ -2594,7 +2588,7 @@
                    hero_mount_idle_anim="act_khuzait_mp_lancer_mount_idle"
                    troop_mount_idle_anim="act_horse_idle_1"
                    multiplier="0.25"
-                   cost="180"
+                   cost="200"
                    icon="Cavalry_Heavy"
                    melee_ai="60"
                    ranged_ai="50"
@@ -2617,14 +2611,14 @@
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=VR2SwarS}Tougher Horse"
-            description="{=xuad1OP3}Replaces mount with the most durable horse in the steppes."
-            icon="PerkAgileHorses"
+            name="{=6hwZwODh}Glaive"
+            description="{=iSpXc3qQ}Grants Glaive, a Khuzait polearm, deadly on horseback."
+            icon="PerkPolearms"
             perk_list="1">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Horse"
-                  id="mp_khuzait_horse_tougher" />
+                  slot="Item0"
+                  id="mp_khuzait_heavy_glaive" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
@@ -2721,135 +2715,44 @@
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=6hwZwODh}Glaive"
-            description="{=iSpXc3qQ}Grants Glaive, a Khuzait polearm, deadly on horseback."
-            icon="PerkPolearms"
+            name="{=VR2SwarS}Tougher Horse"
+            description="{=xuad1OP3}Replaces mount with the most durable horse in the steppes."
+            icon="PerkAgileHorses"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item2"
-                  id="mp_khuzait_heavy_glaive" />
+                  slot="Horse"
+                  id="mp_khuzait_horse_tougher" />
         </Effects>
       </Perk>
     </Perks>
   </MPClassDivision>
   <!-- ASERAI -->
-  <MPClassDivision id="mp_skirmisher_aserai"
-                   hero="mp_skirmisher_aserai_hero"
-                   troop="mp_skirmisher_aserai_troop"
-                   hero_idle_anim="act_aserai_mp_skrimisher_idle"
-                   troop_idle_anim="act_idle_1h_with_shield_1"
-                   multiplier="0.68"
-                   cost="100"
-                   icon="Special_JavelinThrower"
-                   melee_ai="50"
-                   ranged_ai="50"
-                   armor="13"
-                   movement_speed="0.8"
-                   combat_movement_speed="0.8"
-                   acceleration="2.8">
-    <Perks>
-      <!-- First perks-->
-      <Perk game_mode="all"
-            name="{=g3EFq1ld}Better Javelins"
-            description="{=DZkbvhfq}Replaces Javelins with Jereeds, deals more damage, can be used in melee."
-            icon="PerkHeavierJavelins"
-            perk_list="1">
-        <Effects>
-          <Effect type="PerkAlternativeEquipment"
-                  slot="Item0"
-                  id="mp_jereed" />
-          <Effect type="PerkAlternativeEquipment"
-                  slot="Item1"
-                  id="mp_jereed" />
-        </Effects>
-      </Perk>
-      <Perk game_mode="all"
-            name="{=9kGyIb8D}Range Javelins"
-            description="{=l5GMT5AA}(TEMPORARY)Grants Javelins that can go much further."
-            icon="PerkMoreThrowingSpears"
-            perk_list="1">
-        <Effects>
-          <Effect type="PerkAlternativeEquipment"
-                  slot="Item0"
-                  id="mp_javelin" />
-          <Effect type="PerkAlternativeEquipment"
-                  slot="Item1"
-                  id="mp_javelin" />
-        </Effects>
-      </Perk>
-      <Perk game_mode="all"
-            name="{=FLBYsvxp}Long Sword"
-            description="{=BHXqTA0N}Replaces Flyssa with Kaskara, longer and deals more damage."
-            icon="PerkBetterSwords"
-            perk_list="1">
-        <Effects>
-          <Effect type="PerkAlternativeEquipment"
-                  slot="Item2"
-                  id="mp_aserai_ranger_sword" />
-        </Effects>
-      </Perk>
-      <!-- Second perks-->
-      <Perk game_mode="all"
-            name="{=943pNa16}Light Shield"
-            description="{=nSSxEIvF}(TEMPORARY) Grants a light shield, good for faster movement."
-            icon="PerkHardened"
-            perk_list="2">
-        <Effects>
-          <Effect type="PerkAlternativeEquipment"
-                  slot="Item3"
-                  id="mp_bound_desert_round_shield" />
-        </Effects>
-      </Perk>
-      <Perk game_mode="all"
-            name="{=SMws1ws6}Large Shield"
-            description="{=sOARp3Dc}Grants Shield, makes blocking easier, effective against ranged units."
-            icon="PerkHardened"
-            perk_list="2">
-        <Effects>
-          <Effect type="PerkAlternativeEquipment"
-                  slot="Item3"
-                  id="mp_desert_oval_shield" />
-        </Effects>
-      </Perk>
-      <Perk game_mode="all"
-            name="{=YoNYyLba}Spear"
-            description="{=Oweratvx}Grants Spear, effective against cavalry and crowd control."
-            icon="PerkSpears"
-            perk_list="2">
-        <Effects>
-          <Effect type="PerkAlternativeEquipment"
-                  slot="Item3"
-                  id="mp_aserai_spear" />
-        </Effects>
-      </Perk>
-    </Perks>
-  </MPClassDivision>
   <MPClassDivision id="mp_light_infantry_aserai"
                    hero="mp_light_infantry_aserai_hero"
                    troop="mp_light_infantry_aserai_troop"
                    hero_idle_anim="act_aserai_mp_tribal_warrior_idle"
                    troop_idle_anim="act_idle_1h_with_shield_1"
                    multiplier="0.82"
-                   cost="120"
+                   cost="100"
                    icon="Infantry_Light"
                    melee_ai="40"
                    ranged_ai="40"
-                   armor="19"
+                   armor="14"
                    movement_speed="0.78"
                    combat_movement_speed="0.8"
                    acceleration="2.7">
     <Perks>
       <!-- First perks-->
       <Perk game_mode="all"
-            name="{=pE1plFCL}Heavy Mace"
+            name="{=VI4gQt8Q}Mace"
             description="{=CG5D5r2w}Replaces Sword with Mace, effective against armored opponents."
             icon="PerkMaces"
             perk_list="1">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item0"
-                  id="mp_aserai_heavy_mace" />
+                  id="mp_aserai_mace" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
@@ -2974,6 +2877,94 @@
       </Perk>
     </Perks>
   </MPClassDivision>
+  <MPClassDivision id="mp_skirmisher_aserai"
+                   hero="mp_skirmisher_aserai_hero"
+                   troop="mp_skirmisher_aserai_troop"
+                   hero_idle_anim="act_aserai_mp_skrimisher_idle"
+                   troop_idle_anim="act_idle_1h_with_shield_1"
+                   multiplier="0.68"
+                   cost="120"
+                   icon="Special_JavelinThrower"
+                   melee_ai="50"
+                   ranged_ai="50"
+                   armor="13"
+                   movement_speed="0.81"
+                   combat_movement_speed="0.8"
+                   acceleration="2.8">
+    <Perks>
+      <!-- First perks-->
+      <Perk game_mode="all"
+            name="{=g3EFq1ld}Better Javelins"
+            description="{=DZkbvhfq}Replaces Javelins with Jereeds, deals more damage, can be used in melee."
+            icon="PerkHeavierJavelins"
+            perk_list="1">
+        <Effects>
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Item0"
+                  id="mp_jereed" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Item1"
+                  id="mp_jereed" />
+        </Effects>
+      </Perk>
+      <Perk game_mode="all"
+            name="{=7MkoLtWC}Axe"
+            description="{=gQtU8qqy}Grants Axe, effective against shields."
+            icon="PerkBetterAxes"
+            perk_list="1">
+        <Effects>
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Item2"
+                  id="mp_aserai_axe" />
+        </Effects>
+      </Perk>
+      <Perk game_mode="all"
+            name="{=FLBYsvxp}Long Sword"
+            description="{=BHXqTA0N}Replaces Flyssa with Kaskara, longer and deals more damage."
+            icon="PerkBetterSwords"
+            perk_list="1">
+        <Effects>
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Item2"
+                  id="mp_aserai_ranger_sword" />
+        </Effects>
+      </Perk>
+      <!-- Second perks-->
+      <Perk game_mode="all"
+            name="{=943pNa16}Light Shield"
+            description="{=nSSxEIvF}Grants a light shield, good for faster movement."
+            icon="PerkHardened"
+            perk_list="2">
+        <Effects>
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Item3"
+                  id="mp_bound_desert_round_shield" />
+        </Effects>
+      </Perk>
+      <Perk game_mode="all"
+            name="{=SMws1ws6}Large Shield"
+            description="{=sOARp3Dc}Grants Shield, makes blocking easier, effective against ranged units."
+            icon="PerkHardened"
+            perk_list="2">
+        <Effects>
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Item3"
+                  id="mp_desert_oval_shield" />
+        </Effects>
+      </Perk>
+      <Perk game_mode="all"
+            name="{=YoNYyLba}Spear"
+            description="{=Oweratvx}Grants Spear, effective against cavalry and crowd control."
+            icon="PerkSpears"
+            perk_list="2">
+        <Effects>
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Item3"
+                  id="mp_aserai_spear" />
+        </Effects>
+      </Perk>
+    </Perks>
+  </MPClassDivision>
   <MPClassDivision id="mp_shock_infantry_aserai"
                    hero="mp_shock_infantry_aserai_hero"
                    troop="mp_shock_infantry_aserai_troop"
@@ -2985,8 +2976,8 @@
                    melee_ai="50"
                    ranged_ai="50"
                    armor="15"
-                   movement_speed="0.79"
-                   combat_movement_speed="0.8"
+                   movement_speed="0.81"
+                   combat_movement_speed="1"
                    acceleration="2.3"
                    hitpoints="100">
     <Perks>
@@ -3102,14 +3093,14 @@
       </Perk>
       <!-- Second perks-->
       <Perk game_mode="all"
-            name="{=bY9U7w1Q}Sword"
-            description="{=QqWMflbr}Grants Kaskara, a one handed sword effective at dueling and thrusting."
-            icon="PerkFasterSwords"
+            name="{=pE1plFCL}Heavy Mace"
+            description="{=CG5D5r2w}Replaces Sword with Mace, effective against armored opponents."
+            icon="PerkMaces"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item2"
-                  id="mp_aserai_ranger_sword" />
+                  id="mp_aserai_heavy_mace" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
@@ -3227,7 +3218,7 @@
                    hero_idle_anim="act_aserai_mp_veteran_idle"
                    troop_idle_anim="act_idle_bow_1"
                    multiplier="0.40"
-                   cost="150"
+                   cost="160"
                    icon="Archer_Heavy"
                    melee_ai="50"
                    ranged_ai="50"
@@ -3389,7 +3380,7 @@
                    melee_ai="50"
                    ranged_ai="50"
                    armor="15"
-                   movement_speed="0.74"
+                   movement_speed="0.77"
                    combat_movement_speed="0.7"
                    acceleration="3.1">
     <Perks>
@@ -3549,7 +3540,7 @@
                    hero_mount_idle_anim="act_aserai_mp_mamluke_mount_idle"
                    troop_mount_idle_anim="act_horse_idle_1"
                    multiplier="0.25"
-                   cost="180"
+                   cost="200"
                    icon="Cavalry_Heavy"
                    melee_ai="70"
                    ranged_ai="60"
@@ -3792,7 +3783,7 @@
                    melee_ai="50"
                    ranged_ai="50"
                    armor="10"
-                   movement_speed="0.79"
+                   movement_speed="0.81"
                    combat_movement_speed="0.7"
                    acceleration="3.0">
     <Perks>
@@ -4059,7 +4050,7 @@
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item1"
+                  slot="Item2"
                   id="mp_sturgia_northern_sword" />
         </Effects>
       </Perk>
@@ -4070,7 +4061,7 @@
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item1"
+                  slot="Item2"
                   id="mp_sturgia_throwing_axe" />
         </Effects>
       </Perk>
@@ -4081,7 +4072,7 @@
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item1"
+                  slot="Item2"
                   id="mp_sturgia_harpoon" />
         </Effects>
       </Perk>
@@ -4093,7 +4084,7 @@
                    hero_idle_anim="act_sturgia_mp_huskarl_idle"
                    troop_idle_anim="act_idle_unarmed_1"
                    multiplier="0.59"
-                   cost="150"
+                   cost="160"
                    icon="Infantry_Heavy"
                    melee_ai="60"
                    ranged_ai="50"
@@ -4115,14 +4106,14 @@
         </Effects>
       </Perk>
       <Perk game_mode="all"
-           name="{=kxNFecm2}Lighter Shield"
-           description="{=chOIa3PO}Replaces Shield with a lighter shield, good for faster movement."
-           icon="PerkHardened"
-           perk_list="1">
+            name="{=VI4gQt8Q}Mace"
+            description="{=o6eKX9h0}Replaces Axe with Mace, effective against armored opponents."
+            icon="PerkMaces"
+            perk_list="1">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item1"
-                  id="mp_leather_round_shield_light" />
+                  slot="Item0"
+                  id="mp_sturgia_mace" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
@@ -4209,14 +4200,14 @@
       </Perk>
       <!-- Second perks-->
       <Perk game_mode="all"
-            name="{=YoNYyLba}Spear"
+            name="{=dQEa2hZa}Long Spear"
             description="{=Oweratvx}Grants Spear, effective against cavalry and crowd control."
             icon="PerkSpears"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item2"
-                  id="mp_sturgia_spear" />
+                  id="mp_sturgia_long_spear" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
@@ -4231,14 +4222,14 @@
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=PF7sPCYq}Javelins"
-            description="{=ZtKJgiRv}Grants Javelins, good for harrassing, can be used in melee."
-            icon="PerkJavelins"
+            name="{=i7OWTiQc}Stronger Shield"
+            description="{=ZZ9p2E2g}Replaces Shield with a stronger shield, increases durability."
+            icon="PerkHardened"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item2"
-                  id="mp_sturgia_harpoon" />
+                  slot="Item1"
+                  id="mp_leather_round_shield" />
         </Effects>
       </Perk>
     </Perks>
@@ -4253,7 +4244,7 @@
                    icon="Archer_Light"
                    melee_ai="40"
                    ranged_ai="60"
-                   armor="6"
+                   armor="10"
                    movement_speed="0.75"
                    combat_movement_speed="0.7"
                    acceleration="3.0">
@@ -4282,10 +4273,10 @@
         </Effects>
       </Perk>
       <Perk game_mode="all"
-           name="{=Jd0Kq9lD}Shield"
-           description="{=sOARp3Dc}Grants Shield, makes blocking easier, effective against ranged units."
-           icon="PerkHardened"
-           perk_list="1">
+            name="{=Jd0Kq9lD}Shield"
+            description="{=sOARp3Dc}Grants Shield, makes blocking easier, effective against ranged units."
+            icon="PerkHardened"
+            perk_list="1">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item3"
@@ -4339,7 +4330,7 @@
                    melee_ai="40"
                    ranged_ai="30"
                    armor="15"
-                   movement_speed="0.73"
+                   movement_speed="0.76"
                    combat_movement_speed="0.6"
                    acceleration="3.2">
     <Perks>
@@ -4357,7 +4348,7 @@
       </Perk>
       <Perk game_mode="all"
             name="{=uNyHSwaL}Heavy Axe"
-            description="{=F49w1uD0}(TEMPORARY)Replaces Axe with Heavy Axe, deals more damage but shorter."
+            description="{=F49w1uD0}Replaces Axe with Heavy Axe, deals more damage but shorter."
             icon="PerkBetterAxes"
             perk_list="1">
         <Effects>
@@ -4510,7 +4501,7 @@
                    hero_mount_idle_anim="act_sturgia_mp_druzhina_mount_idle"
                    troop_mount_idle_anim="act_horse_idle_1"
                    multiplier="0.25"
-                   cost="180"
+                   cost="200"
                    icon="Cavalry_Heavy"
                    melee_ai="60"
                    ranged_ai="50"
@@ -4722,19 +4713,19 @@
       </Perk>
       <!-- Second perks-->
       <Perk game_mode="all"
-            name="{=YoNYyLba}Spear"
-            description="{=Oweratvx}Grants Spear, effective against cavalry and crowd control."
-            icon="PerkSpears"
+            name="{=h60wQVVX}Pike"
+            description="{=kYbMMbzD}Grants Pike, very effective against cavalry, longer than spears, can't used with shields."
+            icon="PerkPikes"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item2"
-                  id="mp_battania_spear" />
+                  id="mp_battania_pike" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
             name="{=y4YWp1f1}Throwing Spear"
-            description="{=iYauUX6r}Grants Throwing Spears, longer than spears, throwable, can be used in melee, low in quantity."
+            description="{=qENFMPqP}Grants Throwing Spear, longer than spears, throwable, can be used in melee."
             icon="PerkPilums"
             perk_list="2">
         <Effects>
@@ -4744,7 +4735,7 @@
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=W4iKIM2s}Targe"
+            name="{=MnmUBlbL}Targe"
             description="{=JbODbx5i}Grants a Small Shield, makes blocking easier, effective against ranged units."
             icon="PerkStrongerShields"
             hero_idle_anim="act_battania_mp_clan_warrior_shieldperk_idle"
@@ -4771,7 +4762,7 @@
                    movement_speed="0.83"
                    combat_movement_speed="1.0"
                    acceleration="3.1"
-                   hitpoints="100">
+                   hitpoints="110">
     <Perks>
       <!-- First perks-->
       <Perk game_mode="all"
@@ -4899,7 +4890,7 @@
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item1"
+                  slot="Item2"
                   id="mp_battania_pike" />
         </Effects>
       </Perk>
@@ -4910,7 +4901,7 @@
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item1"
+                  slot="Item2"
                   id="mp_sling_stone" />
         </Effects>
       </Perk>
@@ -4921,7 +4912,7 @@
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item1"
+                  slot="Item2"
                   id="mp_battania_javelin" />
         </Effects>
       </Perk>
@@ -5018,7 +5009,7 @@
                    hero_idle_anim="act_battania_mp_oathbound_idle"
                    troop_idle_anim="act_idle_1h_with_shield_1"
                    multiplier="0.60"
-                   cost="140"
+                   cost="160"
                    icon="Infantry_Heavy"
                    melee_ai="50"
                    ranged_ai="50"
@@ -5030,28 +5021,6 @@
     <Perks>
       <!-- First perks-->
       <Perk game_mode="all"
-            name="{=l2j9CAQn}Bastard Sword"
-            description="{=UTrNbIbI}Replaces Longsword with Highland Bastard Sword, effective at dueling and thrusting, two handed."
-            icon="PerkBetterSwords"
-            perk_list="1">
-        <Effects>
-          <Effect type="PerkAlternativeEquipment"
-                  slot="Item0"
-                  id="mp_battania_bastard_sword" />
-        </Effects>
-      </Perk>
-      <Perk game_mode="all"
-            name="{=kxNFecm2}Lighter Shield"
-            description="{=chOIa3PO}Replaces Shield with a lighter shield, good for faster movement."
-            icon="PerkHardened"
-            perk_list="1">
-        <Effects>
-          <Effect type="PerkAlternativeEquipment"
-                  slot="Item1"
-                  id="mp_light_oval_shield" />
-        </Effects>
-      </Perk>
-      <Perk game_mode="all"
             name="{=7MkoLtWC}Axe"
             description="{=meWoLxtc}Replaces Sword with Axe, effective against shields."
             icon="PerkBetterAxes"
@@ -5062,38 +5031,143 @@
                   id="mp_battania_axe" />
         </Effects>
       </Perk>
-      <!-- Second perks-->
       <Perk game_mode="all"
-            name="{=9kGyIb8D}Range Javelins"
-            description="{=l5GMT5AA}(TEMPORARY)Grants Javelins that can go much further."
-            icon="PerkMoreThrowingSpears"
-            perk_list="2">
+            name="{=pE1plFCL}Heavy Mace"
+            description="{=pblXb1ae}Grants Mace, effective against armored opponents."
+            icon="PerkMaces"
+            perk_list="1">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
-                  slot="Item2"
-                  id="mp_battania_javelin" />
+                  slot="Item0"
+                  id="mp_empire_heavy_mace" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=YoNYyLba}Spear"
+            name="{=DlKYZgA3}Improved Armor"
+            description="{=IUsT27oV}Provides +9 armor."
+            icon="PerkToughness"
+            perk_list="1">
+        <Effects target="PlayerOnly">
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Cape"
+                  id="mp_battania_shoulder_furr"
+                  armor_bonus="0" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Body"
+                  id="mp_battania_noble_armor"
+                  armor_bonus="9" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Gloves"
+                  id="mp_highland_gloves"
+                  armor_bonus="0" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Leg"
+                  id="mp_battania_woodland_boots"
+                  armor_bonus="0" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Head"
+                  id="mp_battanian_crowned_helmet"
+                  armor_bonus="0" />
+        </Effects>
+        <Effects target="TroopsOnly">
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Cape"
+                  id="mp_battania_shoulder_furr"
+                  armor_bonus="0" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Body"
+                  id="mp_battania_noble_armor"
+                  armor_bonus="9" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Gloves"
+                  id="mp_highland_gloves"
+                  armor_bonus="0" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Leg"
+                  id="mp_battania_woodland_boots"
+                  armor_bonus="0" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Head"
+                  id="mp_battanian_crowned_helmet"
+                  armor_bonus="0" />
+        </Effects>
+        <Effects target="TroopsOnly">
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Cape"
+                  id="mp_battania_shoulder_furr"
+                  armor_bonus="0" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Body"
+                  id="mp_battania_noble_armor"
+                  armor_bonus="9" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Gloves"
+                  id="mp_highland_gloves"
+                  armor_bonus="0" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Leg"
+                  id="mp_battania_woodland_boots"
+                  armor_bonus="0" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Head"
+                  id="mp_battanian_crowned_helmet"
+                  armor_bonus="0" />
+        </Effects>
+        <Effects target="TroopsOnly">
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Cape"
+                  id="mp_battania_shoulder_furr"
+                  armor_bonus="0" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Body"
+                  id="mp_battania_noble_armor"
+                  armor_bonus="9" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Gloves"
+                  id="mp_highland_gloves"
+                  armor_bonus="0" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Leg"
+                  id="mp_battania_woodland_boots"
+                  armor_bonus="0" />
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Head"
+                  id="mp_battanian_crowned_helmet"
+                  armor_bonus="0" />
+        </Effects>
+      </Perk>
+      <!-- Second perks-->
+      <Perk game_mode="all"
+            name="{=i7OWTiQc}Stronger Shield"
+            description="{=ZZ9p2E2g}Replaces Shield with a stronger shield, increases durability."
+            icon="PerkHardened"
+            perk_list="2">
+        <Effects>
+          <Effect type="PerkAlternativeEquipment"
+                  slot="Item1"
+                  id="mp_heavy_oval_shield" />
+        </Effects>
+      </Perk>
+      <Perk game_mode="all"
+            name="{=dQEa2hZa}Long Spear"
             description="{=Oweratvx}Grants Spear, effective against cavalry and crowd control."
             icon="PerkSpears"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item2"
-                  id="mp_battania_spear" />
+                  id="mp_battania_long_spear" />
         </Effects>
       </Perk>
       <Perk game_mode="all"
-            name="{=14Lfo4sB}Stronger Javelins"
-            description="{=tdRSQoPT}Grants stronger javelins."
-            icon="PerkHeavierJavelins"
+            name="{=PF7sPCYq}Javelins"
+            description="{=ZtKJgiRv}Grants Javelins, good for harrassing, can be used in melee."
+            icon="PerkJavelins"
             perk_list="2">
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item2"
-                  id="mp_battania_javelin" />
+                  id="mp_javelin" />
         </Effects>
       </Perk>
     </Perks>
@@ -5138,7 +5212,7 @@
       </Perk>
       <Perk game_mode="all"
             name="{=PNZmPprx}Two Handed Sword"
-            description="{=*}Replaces Pickaxe with Highland Two Handed Sword, effective at dueling and thrusting, two handed."
+            description="{=DKsZqR8p}Replaces Pickaxe with Highland Two Handed Sword, effective at dueling and thrusting, two handed."
             icon="PerkBetterSwords"
             perk_list="1">
         <Effects>
@@ -5178,7 +5252,7 @@
         <Effects>
           <Effect type="PerkAlternativeEquipment"
                   slot="Item3"
-                  id="mp_battania_spear" />
+                  id="mp_battania_long_spear" />
         </Effects>
       </Perk>
     </Perks>
@@ -5362,7 +5436,7 @@
                    melee_ai="50"
                    ranged_ai="50"
                    armor="16"
-                   movement_speed="0.75"
+                   movement_speed="0.78"
                    combat_movement_speed="0.7"
                    acceleration="3.1">
     <Perks>

@@ -7,13 +7,13 @@
 
     <!-- human movement related -->
     <native_parameter id="jump_cooldown" value="1.6"/>
-    <native_parameter id="bipedal_sprint_speed_ratio" value="0.22"/>
-    <native_parameter id="bipedal_sprint_time_ratio" value="0.85"/>
+    <native_parameter id="bipedal_sprint_speed_ratio" value="0.37"/>
+    <native_parameter id="bipedal_sprint_time_ratio" value="0.9"/>
     <native_parameter id="bipedal_speed_multiplier" value="6.2"/>
     <native_parameter id="bipedal_crouch_speed_multiplier" value="4.0"/>
     <native_parameter id="bipedal_delta_rotation_threshold_for_keeping_local_velocity" value="2.5"/>
-    <native_parameter id="quadrupedal_delta_rotation_threshold_for_keeping_local_velocity" value="0.5"/>
-    <native_parameter id="running_backward_speed_multiplier" value="0.45"/>
+    <native_parameter id="quadrupedal_delta_rotation_threshold_for_keeping_local_velocity" value="0.6"/>
+    <native_parameter id="running_backward_speed_multiplier" value="0.5"/>
     <native_parameter id="running_sides_speed_multiplier" value="0.65"/>
     <native_parameter id="walking_backward_speed_multiplier" value="0.75"/>
     <native_parameter id="walking_sides_speed_multiplier" value="0.90"/>
@@ -25,7 +25,7 @@
     <native_parameter id="quadrupedal_jump_end_hard_speed_multiplier" value="0.5"/>
 
     <native_parameter id="quadrupedal_acceleration_multiplier" value="9"/>
-    <native_parameter id="bipedal_combat_speed_deceleration_blend_multiplier" value="0.2"/>
+    <native_parameter id="bipedal_combat_speed_deceleration_blend_multiplier" value="0.6"/>
     <native_parameter id="bipedal_ranged_ready_speed_multiplier" value="0.6"/>
     <native_parameter id="bipedal_ranged_reload_speed_multiplier" value="0.95"/>
 
@@ -39,16 +39,21 @@
     <!--<native_parameter id="thrust_speed_multiplier" value="0.7"/> NOT USED-->
     <!--<native_parameter id="swing_recovery_multiplier" value="0.7"/> NOT USED-->
     <!--<native_parameter id="thrust_recovery_multiplier" value="0.7"/> NOT USED-->
-    <native_parameter id="on_weapon_hit_speed_regain_acceleration" value="4"/>
-    <native_parameter id="on_weapon_hit_slow_down_factor" value="0.6"/>
+    <native_parameter id="on_weapon_hit_speed_regain_acceleration" value="4.8"/>
+    <native_parameter id="on_weapon_hit_slow_down_factor_swing" value="0.6"/>
+    <native_parameter id="on_weapon_hit_slow_down_factor_thrust" value="0.1"/>
     <native_parameter id="mounted_thrust_attack_rotation_base_speed_multiplier" value="1.5"/>
+    <native_parameter id="minimum_weapon_inertia_for_reduced_rotation_speed" value="3.5"/>
+    <native_parameter id="horizontal_attack_rotation_base_speed_multiplier" value="0.63"/>
+    <native_parameter id="vertical_attack_rotation_base_speed_multiplier" value="0.6"/>
+    <native_parameter id="passive_attack_rotation_base_speed_multiplier" value="0.4"/>
     <native_parameter id="missile_launch_perpendicular_speed_effect_ratio" value="0.2"/>
-    <native_parameter id="ready_speed_multiplier" value="1.7"/>
-    <native_parameter id="release_speed_multiplier" value="1.35"/>
+    <native_parameter id="ready_speed_multiplier" value="2.2"/>
+    <native_parameter id="release_speed_multiplier" value="1.2"/>
     <native_parameter id="release_left_stance_speed_multiplier" value="1.0"/>
     <!---heavy_attack_momentum_multiplier has a twin in managed_combat_parameters.xml-->
     <native_parameter id="heavy_attack_momentum_multiplier" value="1.0"/>
-    <native_parameter id="defend_speed_multiplier" value="2.0"/> <!--3.5-->
+    <native_parameter id="defend_speed_multiplier" value="3.2"/>
     <native_parameter id="defend_right_stance_speed_multiplier" value="1.0"/>
     <native_parameter id="shield_hit_ik_rotation_multiplier" value="15.0"/>
     <native_parameter id="shield_hit_ik_position_multiplier" value="3.0"/>
@@ -57,15 +62,15 @@
     <native_parameter id="minimum_defend_duration" value="0.25"/>
     <native_parameter id="percentage_to_quick_ready_chance" value="0.5"/>
     <native_parameter id="percentage_to_quick_ready_chance_for_thrust" value="0.6"/>
-    <native_parameter id="quick_release_skipped_progress" value="0.01"/>
+    <native_parameter id="quick_release_skipped_progress" value="0.03"/>
     <native_parameter id="release_skipped_progress_for_quick_ready" value="0.01"/>
     <native_parameter id="release_blend_in_period_for_quick_ready" value="0.2"/>
-    <native_parameter id="minimum_anim_strength_for_chamber_block" value="0.2"/>
-    <native_parameter id="maximum_anim_strength_for_chamber_block" value="0.8"/>
+    <native_parameter id="minimum_anim_strength_for_chamber_block" value="0.15"/>
+    <native_parameter id="maximum_anim_strength_for_chamber_block" value="0.85"/>
     <native_parameter id="added_animation_duration_for_block_stuns" value="0.15"/>
-    <native_parameter id="added_animation_duration_for_blocked_attacks" value="0.2"/>
-    <native_parameter id="stun_period_bounce" value="0.4"/>
-    <native_parameter id="additional_stun_period_for_being_struck" value="0.15"/>
+    <native_parameter id="added_animation_duration_for_blocked_attacks" value="0.095"/>
+    <native_parameter id="stun_period_bounce" value="0.338"/>
+    <native_parameter id="additional_stun_period_for_being_struck" value="0.30"/>
 
 
     <!--Also used in managed_combat_paramaters.xml-->
@@ -73,10 +78,20 @@
     <!--Also used in managed_combat_paramaters.xml-->
     <native_parameter id="shield_right_stance_defense_arc_multiplier" value="1.05"/>
     <native_parameter id="shield_bash_collision_check_scale_multiplier" value="0.9"/>
-    <native_parameter id="smaller_humanoid_physics_capsule_radius_multiplier" value="0.95"/>
+    <native_parameter id="smaller_humanoid_physics_capsule_radius_multiplier_for_static_bodies" value="0.67"/>
+    <native_parameter id="smaller_humanoid_physics_capsule_radius_multiplier_for_agents" value="0.95"/>
     <native_parameter id="bigger_humanoid_physics_capsule_radius_multiplier" value="1.5"/>
     <native_parameter id="ranged_target_radius_multiplier" value="2.5"/>
+    <native_parameter id="additional_time_for_perfect_ranged_ready" value="0.3"/>
     <native_parameter id="guard_reset_time" value="1.0"/>
+
+    <!--
+      Collision resistance related
+      Graph can be seen from the link
+      https://www.desmos.com/calculator/yic32aunhg
+    -->
+    <native_parameter id="humanoid_collision_resistance_minimum_limit" value="0.75"/>
+    <native_parameter id="humanoid_collision_resistance_multiplier" value="5.0"/>
 
     <!-- banner holding related -->
     <native_parameter id="banner_direction_from_reference_bone_x" value="-0.3"/>

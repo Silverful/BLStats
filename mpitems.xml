@@ -486,24 +486,6 @@
     </ItemComponent>
     <Flags />
   </Item>
-  <Item id="mp_nasal_cervelliere_over_mail_coif"
-        name="{=mRGIxvYh}Nasal Cervelliere Over Mail Coif"
-        mesh="vlandia_helmet_o_a"
-        culture="Culture.vlandia"
-        value="999"
-        weight="2.6"
-        appearance="0.5"
-        Type="HeadArmor">
-    <ItemComponent>
-      <Armor head_armor="21"
-             has_gender_variations="false"
-             hair_cover_type="all"
-             beard_cover_type="type3"
-             modifier_group="plate"
-             material_type="Plate" />
-    </ItemComponent>
-    <Flags />
-  </Item>
   <Item multiplayer_item="true"
         id="mp_nasal_cervelliere_over_padded_cap"
         name="{=4BfbPgkY}Nasal Cervelliere Over Padded Cap"
@@ -932,29 +914,6 @@
              material_type="Leather" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
-  </Item>
-  <Item multiplayer_item="true"
-        id="mp_northern_padded_cloth"
-        name="{=3BGHFFsL}Northern Padded Cloth"
-        subtype="body_armor"
-        mesh="sturgia_costume_g"
-        culture="Culture.sturgia"
-        is_merchandise="false"
-        weight="1.6"
-        difficulty="0"
-        appearance="0.7"
-        Type="BodyArmor">
-    <ItemComponent>
-      <Armor body_armor="10"
-             leg_armor="6"
-             arm_armor="3"
-             has_gender_variations="true"
-             covers_body="true"
-             modifier_group="cloth"
-             material_type="Cloth" />
-    </ItemComponent>
-    <Flags UseTeamColor="true"
-           Civilian="true" />
   </Item>
   <Item multiplayer_item="true"
         id="mp_vlandia_bandit_b"
@@ -1767,25 +1726,6 @@
     <Flags />
   </Item>
   <Item multiplayer_item="true"
-        id="mp_ironlame_feathered_spangenhelm_over_leather"
-        name="{=MvvlKO0U}Iron Feathered Spangenhelm Over Leather"
-        mesh="empire_helmet_i_db"
-        culture="Culture.empire"
-        is_merchandise="false"
-        weight="2.8"
-        appearance="0.7"
-        Type="HeadArmor">
-    <ItemComponent>
-      <Armor head_armor="31"
-             has_gender_variations="false"
-             hair_cover_type="all"
-             beard_cover_type="none"
-             modifier_group="plate"
-             material_type="Plate" />
-    </ItemComponent>
-    <Flags />
-  </Item>
-  <Item multiplayer_item="true"
         id="mp_guards_kettle_over_laced_coif"
         name="{=Jpt1WvTM}Guard's Kettle Over Laced Coif"
         subtype="head_armor"
@@ -2309,24 +2249,6 @@
     <Flags UseTeamColor="true" />
   </Item>
   <Item multiplayer_item="true"
-        id="mp_scarf"
-        name="{=GNdVXMue}Scarf"
-        mesh="sturgia_cape_a"
-        culture="Culture.sturgia"
-        value="999"
-        subtype="body_armor"
-        weight="0.5"
-        difficulty="0"
-        appearance="0.5"
-        Type="Cape">
-    <ItemComponent>
-      <Armor body_armor="2"
-             modifier_group="cloth_unarmoured"
-             material_type="Cloth" />
-    </ItemComponent>
-    <Flags Civilian="true" />
-  </Item>
-  <Item multiplayer_item="true"
         id="mp_vlandia_bandit_cape_a"
         name="{=ewSpZ10R}Rough Padded Cap"
         subtype="head_armor"
@@ -2474,6 +2396,7 @@
       <Armor head_armor="37"
              has_gender_variations="false"
              hair_cover_type="all"
+             beard_cover_type="all"
              modifier_group="chain"
              material_type="Chainmail" />
     </ItemComponent>
@@ -3506,26 +3429,6 @@
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
-  <Item id="mp_empire_short_dress"
-        name="{=j7EZxCiG}Empire Short Tunic"
-        mesh="empire_short_dress"
-        culture="Culture.empire"
-        weight="1.0"
-        difficulty="0"
-        appearance="0.1"
-        Type="BodyArmor">
-    <ItemComponent>
-      <Armor body_armor="6"
-             leg_armor="0"
-             has_gender_variations="true"
-             covers_body="false"
-             modifier_group="cloth_unarmoured"
-             material_type="Cloth" />
-    </ItemComponent>
-    <Flags Civilian="true"
-           DoesNotHideChest="true"
-           UseTeamColor="true" />
-  </Item>
   <Item multiplayer_item="true"
         id="mp_imperial_lamellar_shoulders"
         name="{=Kj68cfhA}Imperial Lamellar Shoulders"
@@ -4050,29 +3953,6 @@
              material_type="Cloth" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
-  </Item>
-  <Item multiplayer_item="true"
-        id="mp_highland_cloth"
-        name="{=Isioqvt9}Highland Cloth"
-        subtype="body_armor"
-        mesh="battania_cloth_armor_a"
-        culture="Culture.battania"
-        is_merchandise="false"
-        weight="0.8"
-        difficulty="0"
-        appearance="0.3"
-        Type="BodyArmor">
-    <ItemComponent>
-      <Armor body_armor="6"
-             leg_armor="2"
-             arm_armor="2"
-             has_gender_variations="true"
-             covers_body="true"
-             modifier_group="cloth"
-             material_type="Cloth" />
-    </ItemComponent>
-    <Flags UseTeamColor="true"
-           Civilian="true" />
   </Item>
   <Item multiplayer_item="true"
         id="mp_guards_kettle_over_padded_coif"
@@ -5346,29 +5226,6 @@
     <Flags UseTeamColor="true" />
   </Item>
   <Item multiplayer_item="true"
-        id="mp_leather_coat"
-        name="{=o0ZuY9Ux}Western Leather Coat"
-        subtype="body_armor"
-        mesh="leather_coat"
-        culture="Culture.vlandia"
-        weight="3.1"
-        value="999"
-        difficulty="0"
-        appearance="0.3"
-        Type="BodyArmor">
-    <ItemComponent>
-      <Armor body_armor="11"
-             leg_armor="6"
-             arm_armor="1"
-             has_gender_variations="true"
-             covers_body="true"
-             modifier_group="leather"
-             material_type="Leather" />
-    </ItemComponent>
-    <Flags UseTeamColor="true"
-           Civilian="true" />
-  </Item>
-  <Item multiplayer_item="true"
         id="mp_plated_leather_coat"
         name="{=8ulJswRY}Plated Leather Coat"
         subtype="body_armor"
@@ -5695,7 +5552,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_light_armor"
-        name="{=MnJvp0Tq}mp_light_armor"
+        name="{=!}mp_light_armor"
         mesh="roman_cloth_tunic_a"
         culture="Culture.neutral_culture"
         subtype="body_armor"
@@ -6594,24 +6451,6 @@
     <Flags UseTeamColor="true" />
   </Item>
   <Item multiplayer_item="true"
-        id="mp_kettle_helmet_over_arming_coif"
-        name="{=3iq3rOh8}Kettle Helmet Over Arming Coif"
-        mesh="vlandia_helmet_h_f"
-        culture="Culture.vlandia"
-        weight="1.0"
-        appearance="0.5"
-        Type="HeadArmor">
-    <ItemComponent>
-      <Armor head_armor="19"
-             has_gender_variations="false"
-             hair_cover_type="type3"
-             beard_cover_type="none"
-             modifier_group="plate"
-             material_type="Plate" />
-    </ItemComponent>
-    <Flags />
-  </Item>
-  <Item multiplayer_item="true"
         id="mp_empire_guarded_lord_helmet"
         name="{=gLfxeU17}Imperial Guarded Lord Helmet"
         mesh="empire_lord_helmet_b"
@@ -7461,23 +7300,6 @@
     <Flags UseTeamColor="true" />
   </Item>
   <Item multiplayer_item="true"
-        id="mp_battania_noble_bracers"
-        name="{=gSaKwztg}Highland Noble Bracers"
-        mesh="battania_noble_bracers"
-        culture="Culture.battania"
-        weight="0.6"
-        difficulty="0"
-        appearance="0.9"
-        Type="HandArmor">
-    <ItemComponent>
-      <Armor arm_armor="18"
-             covers_hands="true"
-             modifier_group="leather"
-             material_type="Leather" />
-    </ItemComponent>
-    <Flags UseTeamColor="true" />
-  </Item>
-  <Item multiplayer_item="true"
         id="mp_guarded_padded_vambrace"
         name="{=whvMZZba}Guarded Padded Vambrace"
         mesh="padded_vambrace_a_handguard"
@@ -7680,18 +7502,17 @@
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
-  <Item multiplayer_item="true"
-        id="mp_decorated_imperial_boots"
-        name="{=2XEbqNQz}Decorated Imperial Gauntlets"
-        mesh="empire_plate_armor_gauntlets"
+  <Item id="mp_decorated_imperial_boots"
+        name="{=gXbmGrGL}Decorated Imperial Boots"
+        mesh="empire_plate_armor_boots"
         culture="Culture.neutral_culture"
-        value="999"
         is_merchandise="false"
-        weight="1.5"
-        Type="HandArmor">
+        weight="2.3"
+        appearance="0.9"
+        Type="LegArmor">
     <ItemComponent>
-      <Armor arm_armor="16"
-             covers_hands="true"
+      <Armor leg_armor="16"
+             covers_legs="true"
              modifier_group="plate"
              material_type="Plate" />
     </ItemComponent>
@@ -7908,22 +7729,6 @@
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
-  <Item id="mp_decorated_imperial_boots"
-        name="{=gXbmGrGL}Decorated Imperial Boots"
-        mesh="empire_plate_armor_boots"
-        culture="Culture.empire"
-        is_merchandise="false"
-        weight="2.3"
-        appearance="0.9"
-        Type="LegArmor">
-    <ItemComponent>
-      <Armor leg_armor="16"
-             covers_legs="true"
-             modifier_group="plate"
-             material_type="Plate" />
-    </ItemComponent>
-    <Flags UseTeamColor="true" />
-  </Item>
   <Item multiplayer_item="true"
         id="mp_empire_horseman_boots"
         name="{=1BKD07ab}Empire Horseman Boots"
@@ -8087,24 +7892,6 @@
         Type="LegArmor">
     <ItemComponent>
       <Armor leg_armor="9"
-             covers_legs="true"
-             modifier_group="leather"
-             material_type="Leather" />
-    </ItemComponent>
-    <Flags UseTeamColor="true" />
-  </Item>
-  <Item multiplayer_item="true"
-        id="mp_battania_leather_boots"
-        name="{=hTRaPvRa}Highland Leather Boots"
-        mesh="battania_leather_boots_a"
-        culture="Culture.battania"
-        is_merchandise="false"
-        weight="1.0"
-        difficulty="0"
-        appearance="0.5"
-        Type="LegArmor">
-    <ItemComponent>
-      <Armor leg_armor="11"
              covers_legs="true"
              modifier_group="leather"
              material_type="Leather" />
@@ -8383,7 +8170,7 @@
       <Piece id="mp_empire_heavy_axe_head"
              Type="Blade"
              scale_factor="100" />
-      <Piece id="axe_craft_25_handle"
+      <Piece id="mp_empire_heavy_axe_handle"
              Type="Handle"
              scale_factor="110" />
     </Pieces>
@@ -8424,7 +8211,7 @@
   <CraftedItem multiplayer_item="true"
                id="mp_vlandian_sickle"
                name="{=4wdgiTta}Sickle"
-               crafting_template="OneHandedAxe"
+               crafting_template="OneHandedSword"
                value="999"
                is_merchandise="false"
                culture="Culture.neutral_culture">
@@ -8678,7 +8465,7 @@
   <CraftedItem multiplayer_item="true"
                id="mp_vlandian_pick_axe"
                name="{=ZvMcHde3}Pickaxe"
-               crafting_template="OneHandedAxe"
+               crafting_template="OneHandedSword"
                value="999"
                is_merchandise="false"
                culture="Culture.neutral_culture">
@@ -8814,12 +8601,12 @@
     <!-- Length: 18700 Weight: 2.35 -->
   </CraftedItem>
   <CraftedItem multiplayer_item="true"
-              id="mp_empire_cavalry_menavlion"
-              name="{=*}Cavalry Menavlion"
-              crafting_template="TwoHandedPolearm"
-              value="999"
-              is_merchandise="false"
-              culture="Culture.neutral_culture">
+               id="mp_empire_cavalry_menavlion"
+               name="{=sZsOeSQ4}Cavalry Menavlion"
+               crafting_template="TwoHandedPolearm"
+               value="999"
+               is_merchandise="false"
+               culture="Culture.neutral_culture">
     <Pieces>
       <Piece id="mp_empire_cavalry_menavlion_blade"
              Type="Blade"
@@ -10078,7 +9865,7 @@
       <Piece id="mp_aserai_two_handed_sword_grip"
              Type="Handle"
              scale_factor="110" />
-      <Piece id="empire_pommel_2"
+      <Piece id="mp_empire_pommel_2"
              Type="Pommel"
              scale_factor="100" />
     </Pieces>
@@ -10307,14 +10094,14 @@
     <!-- Length: 12300 Weight: 2.61 -->
   </CraftedItem>
   <CraftedItem multiplayer_item="true"
-               id="mp_battania_throwing_knife"
-               name="{=VrZJfOFN}Highland ThrowingKnife"
-               crafting_template="ThrowingKnife"
+               id="mp_default_dagger"
+               name="{=mbT1uNPa}Dagger"
+               crafting_template="Dagger"
                value="999"
                is_merchandise="false"
                culture="Culture.neutral_culture">
     <Pieces>
-      <Piece id="mp_battania_dagger_blade"
+      <Piece id="mp_dagger_blade_1"
              Type="Blade"></Piece>
       <Piece id="mp_battania_dagger_guard"
              Type="Guard"></Piece>
@@ -11638,6 +11425,7 @@
               missile_speed="10"
               weapon_length="37"
               item_usage=""
+              passby_sound_code="event:/mission/combat/missile/passby"
               rotation="180, 0, 0"
               physics_material="missile"
               sticking_position="0,-0.37,0"
@@ -11673,6 +11461,7 @@
               missile_speed="10"
               weapon_length="37"
               item_usage=""
+              passby_sound_code="event:/mission/combat/missile/passby"
               rotation="180, 0, 0"
               physics_material="missile"
               sticking_position="0,-0.37,0"
@@ -11708,6 +11497,7 @@
               missile_speed="10"
               weapon_length="37"
               item_usage=""
+              passby_sound_code="event:/mission/combat/missile/passby"
               rotation="180, 0, 0"
               physics_material="missile"
               sticking_position="0,-0.37,0"
@@ -11743,6 +11533,7 @@
               missile_speed="11"
               weapon_length="37"
               item_usage=""
+              passby_sound_code="event:/mission/combat/missile/passby"
               rotation="180, 0, 0"
               physics_material="missile"
               sticking_position="0,-0.37,0"
@@ -11778,6 +11569,7 @@
               missile_speed="10"
               weapon_length="47"
               item_usage=""
+              passby_sound_code="event:/mission/combat/missile/passby"
               rotation="180, 0, 0"
               physics_material="missile"
               sticking_position="0,-0.47,0"
@@ -11845,6 +11637,80 @@
     <ItemComponent>
       <Weapon weapon_class="Arrow"
               stack_amount="40"
+              thrust_speed="0"
+              speed_rating="0"
+              physics_material="missile"
+              missile_speed="10"
+              weapon_length="97"
+              thrust_damage="0"
+              thrust_damage_type="Pierce"
+              item_usage="arrow_right"
+              passby_sound_code="event:/mission/combat/missile/passby"
+              rotation="0, -80, 25"
+              sticking_position="0,-0.97,0"
+              sticking_rotation="90,0,0"
+              center_of_mass="0,0.05,-0.0">
+        <WeaponFlags Consumable="true"
+                     AmmoSticksWhenShot="true"
+                     AmmoBreaksOnBounceBack="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="mp_arrows_steppe_mounted"
+        name="{=SqbWZS5a}Steppe Arrow"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        mesh="arrow_bl_f"
+        culture="Culture.khuzait"
+        weight="0.05"
+        appearance="0.5"
+        flying_mesh="arrow_bl_flying"
+        holster_mesh="arrow_bl_f_quiver"
+        holster_mesh_with_weapon="arrow_bl_f_quiver"
+        Type="Arrows"
+        item_holsters="quiver_back_lower:quiver_back_lower_2"
+        holster_position_shift="0.0,0.0,-0.0">
+    <ItemComponent>
+      <Weapon weapon_class="Arrow"
+              stack_amount="32"
+              thrust_speed="0"
+              speed_rating="0"
+              physics_material="missile"
+              missile_speed="10"
+              weapon_length="97"
+              thrust_damage="0"
+              thrust_damage_type="Pierce"
+              item_usage="arrow_right"
+              passby_sound_code="event:/mission/combat/missile/passby"
+              rotation="0, -80, 25"
+              sticking_position="0,-0.97,0"
+              sticking_rotation="90,0,0"
+              center_of_mass="0,0.15,-0.1">
+        <WeaponFlags Consumable="true"
+                     AmmoSticksWhenShot="true"
+                     AmmoBreaksOnBounceBack="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="mp_arrows_steppe_extra_mounted"
+        name="{=SqbWZS5a}Steppe Arrow"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        mesh="arrow_bl_f"
+        culture="Culture.khuzait"
+        weight="0.05"
+        appearance="0.5"
+        flying_mesh="arrow_bl_flying"
+        holster_mesh="arrow_bl_f_quiver"
+        holster_mesh_with_weapon="arrow_bl_f_quiver"
+        Type="Arrows"
+        item_holsters="quiver_back_lower:quiver_back_lower_2"
+        holster_position_shift="0.0,0.0,-0.0">
+    <ItemComponent>
+      <Weapon weapon_class="Arrow"
+              stack_amount="50"
               thrust_speed="0"
               speed_rating="0"
               physics_material="missile"
@@ -12351,7 +12217,7 @@
         using_tableau="true"
         value="999"
         is_merchandise="false"
-        weight="4.7"
+        weight="5"
         Type="Shield"
         item_holsters="shield_kite:shield_2:shield_3:shield_4"
         has_lower_holster_priority="true"
@@ -12368,7 +12234,7 @@
               rotation="0.0,10.0,40.00"
               weapon_length="110"
               center_of_mass="-0.070,0.0,0.05"
-              hit_points="140">
+              hit_points="120">
         <WeaponFlags CanBlockRanged="true"
                      HasHitPoints="true" />
       </Weapon>
@@ -12405,7 +12271,44 @@
               rotation="0.0,10.0,40.00"
               weapon_length="105"
               center_of_mass="-0.0,0.1,0.05"
-              hit_points="140">
+              hit_points="225">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item multiplayer_item="true"
+        id="mp_tall_heater_shield_light"
+        name="{=8bH8n3Aq}Light Tall Heater Shield"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="heater_shield_k"
+        culture="Culture.neutral_culture"
+        using_tableau="true"
+        value="999"
+        is_merchandise="false"
+        weight="2.1"
+        Type="Shield"
+        item_holsters="shield:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,-0.05,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="9"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="0.0, 0.00, 0.00"
+              rotation="0.0,10.0,40.00"
+              weapon_length="105"
+              center_of_mass="-0.0,0.1,0.05"
+              hit_points="145">
         <WeaponFlags CanBlockRanged="true"
                      HasHitPoints="true" />
       </Weapon>
@@ -12703,7 +12606,7 @@
               rotation="-15.0,-90.0,-10.0"
               weapon_length="70"
               center_of_mass="0, 0.15, 0"
-              hit_points="140">
+              hit_points="230">
         <WeaponFlags CanBlockRanged="true"
                      HasHitPoints="true" />
       </Weapon>
@@ -12730,7 +12633,7 @@
         holster_position_shift="0 ,0 ,0.01">
     <ItemComponent>
       <Weapon weapon_class="LargeShield"
-              body_armor="5"
+              body_armor="8"
               thrust_speed="82"
               thrust_damage="5"
               thrust_damage_type="Blunt"
@@ -12741,7 +12644,7 @@
               rotation="-15.0,-90.0,-10.0"
               weapon_length="70"
               center_of_mass="0, 0.15, 0"
-              hit_points="125">
+              hit_points="165">
         <WeaponFlags CanBlockRanged="true"
                      HasHitPoints="true" />
       </Weapon>
@@ -13014,14 +12917,14 @@
         using_tableau="true"
         value="999"
         is_merchandise="false"
-        weight="4.5"
+        weight="3"
         Type="Shield"
         item_holsters="shield:shield_2:shield_3:shield_4"
         has_lower_holster_priority="true"
         holster_position_shift="-0.1,-0.1,0.01">
     <ItemComponent>
       <Weapon weapon_class="LargeShield"
-              body_armor="10"
+              body_armor="12"
               thrust_speed="82"
               thrust_damage_type="Blunt"
               speed_rating="82"
@@ -13031,7 +12934,7 @@
               rotation="0.0,10.0,40.00"
               weapon_length="95"
               center_of_mass="-0.0,0.25,0.05"
-              hit_points="145">
+              hit_points="190">
         <WeaponFlags CanBlockRanged="true"
                      HasHitPoints="true" />
       </Weapon>
@@ -13042,7 +12945,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_battania_targe_b"
-        name="{=*}Targe"
+        name="{=MnmUBlbL}Targe"
         using_tableau="true"
         body_name="bo_cap_battania_targe_b"
         shield_body_name="bo_battania_targe_b"
@@ -13087,14 +12990,14 @@
         using_tableau="true"
         value="999"
         is_merchandise="false"
-        weight="2.5"
+        weight="1"
         Type="Shield"
         item_holsters="shield:shield_2:shield_3:shield_4"
         has_lower_holster_priority="true"
         holster_position_shift="-0.08,0,0.0">
     <ItemComponent>
       <Weapon weapon_class="LargeShield"
-              body_armor="5"
+              body_armor="1"
               thrust_speed="82"
               thrust_damage_type="Blunt"
               speed_rating="82"
@@ -13104,7 +13007,7 @@
               rotation="0.0,10.0,40.00"
               weapon_length="77"
               center_of_mass="-0.035,0.1,0.05"
-              hit_points="100">
+              hit_points="20">
         <WeaponFlags CanBlockRanged="true"
                      HasHitPoints="true" />
       </Weapon>
@@ -13124,7 +13027,7 @@
         culture="Culture.neutral_culture"
         value="999"
         is_merchandise="false"
-        weight="3.0"
+        weight="2.0"
         Type="Shield"
         item_holsters="shield:shield_2:shield_3:shield_4"
         has_lower_holster_priority="true"
@@ -13439,7 +13342,7 @@
               rotation="0.0,10.0,40.00"
               weapon_length="135"
               center_of_mass="0, 0, 0"
-              hit_points="160">
+              hit_points="220">
         <WeaponFlags CanBlockRanged="true"
                      HasHitPoints="true" />
       </Weapon>
@@ -13450,11 +13353,11 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_light_oval_shield"
-        name="{=iPfZpGHK}Heavy Oval Shield"
+        name="{=4aFPp5hj}Light Oval Shield"
         body_name="bo_cap_aserai_shields_a"
         shield_body_name="bo_aserai_shields_a"
         recalculate_body="false"
-        mesh="aserai_shields_a"
+        mesh="aserai_shields_b"
         using_tableau="true"
         culture="Culture.neutral_culture"
         value="999"
@@ -13466,7 +13369,7 @@
         holster_position_shift="-0.04,-0.0,0">
     <ItemComponent>
       <Weapon weapon_class="LargeShield"
-              body_armor="15"
+              body_armor="10"
               thrust_speed="89"
               thrust_damage_type="Blunt"
               speed_rating="89"
@@ -13658,7 +13561,7 @@
               physics_material="wood_shield"
               weapon_length="128"
               center_of_mass="0.0,0.05,0.05"
-              hit_points="140">
+              hit_points="220">
         <WeaponFlags CanBlockRanged="true"
                      HasHitPoints="true" />
       </Weapon>
@@ -13683,7 +13586,7 @@
         holster_position_shift="-0.1,0,-0.025">
     <ItemComponent>
       <Weapon weapon_class="LargeShield"
-              body_armor="15"
+              body_armor="10"
               thrust_speed="82"
               thrust_damage_type="Blunt"
               speed_rating="82"
@@ -13693,7 +13596,7 @@
               physics_material="wood_shield"
               weapon_length="128"
               center_of_mass="0.0,0.05,0.05"
-              hit_points="150">
+              hit_points="140">
         <WeaponFlags CanBlockRanged="true"
                      HasHitPoints="true" />
       </Weapon>
@@ -13753,7 +13656,7 @@
         holster_position_shift="-0.1,-0.1,0.01">
     <ItemComponent>
       <Weapon weapon_class="LargeShield"
-              body_armor="5"
+              body_armor="10"
               thrust_speed="82"
               thrust_damage_type="Blunt"
               speed_rating="82"
@@ -13788,7 +13691,7 @@
         holster_position_shift="-0.1,-0.1,0.01">
     <ItemComponent>
       <Weapon weapon_class="LargeShield"
-              body_armor="10"
+              body_armor="15"
               thrust_speed="82"
               thrust_damage_type="Blunt"
               speed_rating="82"
@@ -13798,7 +13701,7 @@
               rotation="0.0,10.0,40.00"
               weapon_length="90"
               center_of_mass="-0.0,0.25,0.05"
-              hit_points="190">
+              hit_points="230">
         <WeaponFlags CanBlockRanged="true"
                      HasHitPoints="true" />
       </Weapon>
@@ -13812,7 +13715,7 @@
   <!-- #region Horses -->
   <Item multiplayer_item="true"
         id="mp_vlandia_horse"
-        name="{=xnDWqYKW}Hunter"
+        name="{=hunterhorse}Hunter"
         mesh="horse_brown"
         subtype="horse"
         item_category="sumpter_horse"
@@ -13827,7 +13730,7 @@
              charge_damage="2"
              body_length="103"
              is_mountable="true"
-             extra_health="0"
+             extra_health="20"
              skeleton_scale="vlandia_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane_2"
@@ -13873,12 +13776,12 @@
         Type="Horse">
     <ItemComponent>
       <Horse monster="Monster.horse"
-             maneuver="68"
-             speed="45"
+             maneuver="70"
+             speed="47"
              charge_damage="2"
              body_length="103"
              is_mountable="true"
-             extra_health="0"
+             extra_health="20"
              skeleton_scale="vlandia_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane_2"
@@ -13925,11 +13828,11 @@
     <ItemComponent>
       <Horse monster="Monster.horse"
              maneuver="65"
-             speed="40"
+             speed="41"
              charge_damage="13"
              body_length="113"
              is_mountable="true"
-             extra_health="35"
+             extra_health="30"
              skeleton_scale="vlandia_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane_2"
@@ -13974,7 +13877,7 @@
              charge_damage="9"
              body_length="113"
              is_mountable="true"
-             extra_health="50"
+             extra_health="70"
              skeleton_scale="vlandia_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane_2"
@@ -14019,7 +13922,7 @@
              charge_damage="13"
              body_length="113"
              is_mountable="true"
-             extra_health="0"
+             extra_health="20"
              skeleton_scale="vlandia_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane_2"
@@ -14064,7 +13967,7 @@
              charge_damage="4"
              body_length="100"
              is_mountable="true"
-             extra_health="-10"
+             extra_health="10"
              skeleton_scale="sturgia_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane_2"
@@ -14113,10 +14016,10 @@
       <Horse monster="Monster.horse"
              maneuver="66"
              speed="42"
-             charge_damage="11"
+             charge_damage="8"
              body_length="110"
              is_mountable="true"
-             extra_health="30"
+             extra_health="50"
              skeleton_scale="sturgia_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane_2"
@@ -14162,7 +14065,7 @@
              charge_damage="12"
              body_length="112"
              is_mountable="true"
-             extra_health="43"
+             extra_health="70"
              skeleton_scale="sturgia_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane_2"
@@ -14203,12 +14106,12 @@
         Type="Horse">
     <ItemComponent>
       <Horse monster="Monster.horse"
-             maneuver="60"
-             speed="37"
+             maneuver="64"
+             speed="39"
              charge_damage="2"
              body_length="92"
              is_mountable="true"
-             extra_health="-30"
+             extra_health="0"
              skeleton_scale="khuzait_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane"
@@ -14249,11 +14152,11 @@
     <ItemComponent>
       <Horse monster="Monster.horse"
              maneuver="65"
-             speed="37"
+             speed="38"
              charge_damage="3"
              body_length="95"
              is_mountable="true"
-             extra_health="0"
+             extra_health="25"
              skeleton_scale="khuzait_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane"
@@ -14294,11 +14197,11 @@
     <ItemComponent>
       <Horse monster="Monster.horse"
              maneuver="68"
-             speed="40"
+             speed="41"
              charge_damage="2"
              body_length="95"
              is_mountable="true"
-             extra_health="-30"
+             extra_health="-10"
              skeleton_scale="khuzait_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane"
@@ -14351,7 +14254,7 @@
              charge_damage="2"
              body_length="97"
              is_mountable="true"
-             extra_health="0"
+             extra_health="20"
              skeleton_scale="khuzait_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane"
@@ -14404,7 +14307,7 @@
              charge_damage="8"
              body_length="100"
              is_mountable="true"
-             extra_health="25"
+             extra_health="20"
              skeleton_scale="khuzait_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane"
@@ -14433,8 +14336,8 @@
     <Flags UseTeamColor="true" />
   </Item>
   <Item multiplayer_item="true"
-        id="mp_khuzait_horse_war"
-        name="{=PZPphq6H}Steppe Warhorse"
+        id="mp_khuzait_horse_war_light"
+        name="{=PZPphq6H}Steppe Battlehorse"
         mesh="horse_brown"
         item_category="horse"
         subtype="horse"
@@ -14444,12 +14347,12 @@
         Type="Horse">
     <ItemComponent>
       <Horse monster="Monster.horse"
-             maneuver="72"
-             speed="42"
-             charge_damage="8"
+             maneuver="68"
+             speed="40"
+             charge_damage="6"
              body_length="100"
              is_mountable="true"
-             extra_health="25"
+             extra_health="60"
              skeleton_scale="khuzait_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane"
@@ -14494,7 +14397,7 @@
              charge_damage="9"
              body_length="102"
              is_mountable="true"
-             extra_health="38"
+             extra_health="65"
              skeleton_scale="khuzait_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane"
@@ -14539,7 +14442,7 @@
              charge_damage="13"
              body_length="100"
              is_mountable="true"
-             extra_health="15"
+             extra_health="20"
              skeleton_scale="khuzait_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane"
@@ -14569,7 +14472,7 @@
   </Item>
   <Item multiplayer_item="true"
         id="mp_empire_horse"
-        name="{=rdIGpLLh}Courser"
+        name="{=courserhorse}Courser"
         mesh="horse_brown"
         subtype="horse"
         item_category="horse"
@@ -14584,7 +14487,7 @@
              charge_damage="6"
              body_length="114"
              is_mountable="true"
-             extra_health="0"
+             extra_health="20"
              skeleton_scale="empire_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane_2"
@@ -14635,7 +14538,7 @@
              charge_damage="8"
              body_length="112"
              is_mountable="true"
-             extra_health="0"
+             extra_health="20"
              skeleton_scale="empire_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane_2"
@@ -14681,12 +14584,12 @@
         Type="Horse">
     <ItemComponent>
       <Horse monster="Monster.horse"
-             maneuver="64"
+             maneuver="62"
              speed="40"
              charge_damage="13"
              body_length="120"
              is_mountable="true"
-             extra_health="45"
+             extra_health="65"
              skeleton_scale="empire_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane_2"
@@ -14728,10 +14631,10 @@
       <Horse monster="Monster.horse"
              maneuver="66"
              speed="45"
-             charge_damage="12"
+             charge_damage="10"
              body_length="118"
              is_mountable="true"
-             extra_health="40"
+             extra_health="45"
              skeleton_scale="empire_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane_2"
@@ -14782,7 +14685,7 @@
              charge_damage="4"
              body_length="105"
              is_mountable="true"
-             extra_health="-20"
+             extra_health="0"
              skeleton_scale="aserai_horse"
              modifier_group="horse">
         <AdditionalMeshes>
@@ -14836,7 +14739,7 @@
              charge_damage="7"
              body_length="108"
              is_mountable="true"
-             extra_health="15"
+             extra_health="35"
              skeleton_scale="aserai_horse"
              modifier_group="horse">
         <AdditionalMeshes>
@@ -14882,7 +14785,7 @@
              charge_damage="7"
              body_length="106"
              is_mountable="true"
-             extra_health="10"
+             extra_health="30"
              skeleton_scale="aserai_horse"
              modifier_group="horse">
         <AdditionalMeshes>
@@ -14941,7 +14844,7 @@
              charge_damage="2"
              body_length="96"
              is_mountable="true"
-             extra_health="-5"
+             extra_health="15"
              skeleton_scale="battania_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane_2"
@@ -14985,7 +14888,7 @@
              charge_damage="11"
              body_length="100"
              is_mountable="true"
-             extra_health="40"
+             extra_health="60"
              skeleton_scale="battania_horse">
         <AdditionalMeshes>
           <Mesh name="horse_mane_2"
@@ -15045,7 +14948,7 @@
         weight="130"
         Type="HorseHarness">
     <ItemComponent>
-      <Armor body_armor="49"
+      <Armor body_armor="44"
              mane_cover_type="all"
              family_type="1"
              modifier_group="chain"
@@ -15125,7 +15028,7 @@
         weight="150"
         Type="HorseHarness">
     <ItemComponent>
-      <Armor body_armor="45"
+      <Armor body_armor="40"
              mane_cover_type="all"
              family_type="1"
              modifier_group="chain"
@@ -15165,7 +15068,7 @@
         weight="150"
         Type="HorseHarness">
     <ItemComponent>
-      <Armor body_armor="48"
+      <Armor body_armor="43"
              mane_cover_type="all"
              family_type="1"
              modifier_group="chain"
@@ -15245,7 +15148,7 @@
         weight="80"
         Type="HorseHarness">
     <ItemComponent>
-      <Armor body_armor="30"
+      <Armor body_armor="25"
              mane_cover_type="all"
              family_type="1"
              modifier_group="plate"
@@ -15265,7 +15168,7 @@
         weight="135"
         Type="HorseHarness">
     <ItemComponent>
-      <Armor body_armor="47"
+      <Armor body_armor="42"
              mane_cover_type="all"
              family_type="1"
              modifier_group="plate"
@@ -15302,7 +15205,7 @@
         culture="Culture.neutral_culture"
         Type="HorseHarness">
     <ItemComponent>
-      <Armor body_armor="30"
+      <Armor body_armor="25"
              mane_cover_type="all"
              family_type="1"
              modifier_group="chain"
@@ -15406,7 +15309,7 @@
   <Item multiplayer_item="true"
         id="mp_imperial_riding_harness"
         name="{=NUmDuEqI}Imperial Riding Harness"
-        mesh="horse_harness_a"
+        mesh="horse_harness_a_new"
         value="999"
         is_merchandise="false"
         weight="30"
@@ -15414,6 +15317,7 @@
         Type="HorseHarness">
     <ItemComponent>
       <Armor body_armor="4"
+             reins_mesh="horse_harness_a_new_rein"
              mane_cover_type="all"
              family_type="1"
              modifier_group="leather"
@@ -15424,7 +15328,7 @@
   <Item multiplayer_item="true"
         id="mp_chain_horse_harness"
         name="{=GTWUtUFj}Chain Horse Harness"
-        mesh="horse_harness_e_test"
+        mesh="horse_harness_e"
         subtype="body_armor"
         value="999"
         is_merchandise="false"
@@ -15436,6 +15340,7 @@
              hair_cover_type="all"
              covers_head="true"
              mane_cover_type="all"
+             reins_mesh="horse_harness_e_rein"
              maneuver_bonus="0"
              speed_bonus="0"
              charge_bonus="0"
@@ -15693,12 +15598,12 @@
     <ItemComponent>
       <Weapon weapon_class="Stone"
               ammo_class="Stone"
-              stack_amount="15"
+              stack_amount="20"
               physics_material="missile"
               accuracy="88"
               thrust_speed="102"
               speed_rating="102"
-              missile_speed="40"
+              missile_speed="45"
               weapon_length="10"
               thrust_damage="16"
               item_usage="stone"
