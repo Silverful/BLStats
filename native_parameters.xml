@@ -26,8 +26,6 @@
 
     <native_parameter id="quadrupedal_acceleration_multiplier" value="9"/>
     <native_parameter id="bipedal_combat_speed_deceleration_blend_multiplier" value="0.6"/>
-    <native_parameter id="bipedal_ranged_ready_speed_multiplier" value="0.6"/>
-    <native_parameter id="bipedal_ranged_reload_speed_multiplier" value="0.95"/>
 
     <!-- combat related -->
     <native_parameter id="max_logical_distance_allowed_for_defend" value="0.65"/>
@@ -127,7 +125,7 @@
     <native_parameter id="side_block_outer_limit" value="1.4" />
     <native_parameter id="side_block_inner_limit" value="1.2" />
     <native_parameter id="side_block_outer_limit_for_opposite_direction" value="2.3" />
-    <native_parameter id="side_block_inner_limit_for_opposite_direction" value="0.8" />
+    <native_parameter id="side_block_inner_limit_for_opposite_direction" value="0.6" />
     <native_parameter id="horizontal_arc_for_up_down_block" value="1.4" />
 
     <!--defend arcs for parry with fist-->
@@ -169,8 +167,8 @@
     <native_parameter id="upper_arc_when_defending_with_shield" value="1.22" />
     <native_parameter id="lower_arc_when_defending_with_shield" value="-0.9" />
     <native_parameter id="right_horizontal_arc_limit_when_defending_right_side_with_shield" value="-1.4" />
-    <native_parameter id="left_horizontal_arc_limit_when_defending_right_side_with_shield" value="0.7" />
-    <native_parameter id="right_horizontal_arc_limit_when_defending_left_side_with_shield" value="-0.7" />
+    <native_parameter id="left_horizontal_arc_limit_when_defending_right_side_with_shield" value="0.6" />
+    <native_parameter id="right_horizontal_arc_limit_when_defending_left_side_with_shield" value="-0.6" />
     <native_parameter id="left_horizontal_arc_limit_when_defending_left_side_with_shield" value="1.4" />
     <native_parameter id="right_horizontal_arc_limit_when_defending_up_down_with_shield" value="-1.0" />
     <native_parameter id="left_horizontal_arc_limit_when_defending_up_down_with_shield" value="1.0" />

@@ -1219,11 +1219,18 @@
                       left_ladder_rot_limit="bow_ladder_rot_limit_left" right_ladder_rot_limit="bow_ladder_rot_limit_right" />
 
     <combat_parameter id="crossbow_ready_release"
-                      vertical_rot_limit_multiplier_up="bow_vertical_rot_limit" vertical_rot_limit_multiplier_down="bow_vertical_rot_limit"
-                      left_rider_min_rot_limit="crossbow_rider_min_rot_limit_left" right_rider_min_rot_limit="crossbow_rider_min_rot_limit_right"
-                      rider_look_down_limit="crossbow_rider_look_down_limit"
-                      left_rider_rot_limit="crossbow_rider_rot_limit_left" right_rider_rot_limit="crossbow_rider_rot_limit_right"
-                      left_ladder_rot_limit="crossbow_ladder_rot_limit_left" right_ladder_rot_limit="crossbow_ladder_rot_limit_right" />
+                     vertical_rot_limit_multiplier_up="bow_vertical_rot_limit" vertical_rot_limit_multiplier_down="bow_vertical_rot_limit"
+                     left_rider_min_rot_limit="crossbow_rider_min_rot_limit_left" right_rider_min_rot_limit="crossbow_rider_min_rot_limit_right"
+                     rider_look_down_limit="crossbow_rider_look_down_limit"
+                     left_rider_rot_limit="crossbow_rider_rot_limit_left" right_rider_rot_limit="crossbow_rider_rot_limit_right"
+                     left_ladder_rot_limit="crossbow_ladder_rot_limit_left" right_ladder_rot_limit="crossbow_ladder_rot_limit_right" />
+
+    <combat_parameter id="crossbow_reload_horseback"
+                        vertical_rot_limit_multiplier_up="bow_vertical_rot_limit" vertical_rot_limit_multiplier_down="0.2"
+                        left_rider_min_rot_limit="crossbow_rider_min_rot_limit_left" right_rider_min_rot_limit="crossbow_rider_min_rot_limit_right"
+                        rider_look_down_limit="crossbow_rider_look_down_limit"
+                        left_rider_rot_limit="crossbow_rider_rot_limit_left" right_rider_rot_limit="crossbow_rider_rot_limit_right"
+                        left_ladder_rot_limit="crossbow_ladder_rot_limit_left" right_ladder_rot_limit="crossbow_ladder_rot_limit_right" />
 
     <combat_parameter id="javelin_ready_release"
                       vertical_rot_limit_multiplier_up="bow_vertical_rot_limit" vertical_rot_limit_multiplier_down="bow_vertical_rot_limit"
